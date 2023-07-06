@@ -1,0 +1,18 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+@code{
+    string Name = "";
+
+    protected override void OnInitialized()
+    {
+        if(Sesion.Empleados.Name == "")
+        {
+            NavigationManager.NavigateTo("/login");
+            return;
+        }
+        else
+        {
+            Name = Sesion.Empleados.Name;
+        }
+    }
+}

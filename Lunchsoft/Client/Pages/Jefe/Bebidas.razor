@@ -1,0 +1,300 @@
+﻿@page "/Bebidas"
+@inject NavigationManager NavigationManager
+
+<Bar Breakpoint="Breakpoint.Desktop"
+     Background="Background.Light"
+     ThemeContrast="ThemeContrast.Light">
+    <BarBrand>
+        LunchSoft
+    </BarBrand>
+    <BarToggler />
+    <BarMenu>
+        <BarStart>
+            <BarItem>
+                <BarLink To="/Mesas">Mesas</BarLink>
+            </BarItem>
+            <BarItem>
+                <BarLink To="/Comidas">Comidas</BarLink>
+            </BarItem>
+            <BarItem>
+                <BarLink To="/Bebidas">Bebidas</BarLink>
+            </BarItem>
+            <BarItem>
+                <BarLink To="/Informacion">Informacion</BarLink>
+            </BarItem>
+        </BarStart>
+        <BarEnd>
+            <BarItem>
+                <BarDropdown>
+                    <BarDropdownToggle>Perfil De Usuario</BarDropdownToggle>
+                    <BarDropdownMenu>
+                        <BarDropdownItem To="/login">Cerrar Session</BarDropdownItem>
+                    </BarDropdownMenu>
+                </BarDropdown>
+            </BarItem>
+        </BarEnd>
+    </BarMenu>
+</Bar>
+
+<div class="nombre">
+    <center><h3>Bebidas Y Postres</h3></center>
+</div>
+
+<center><Button class="btn btn-outline-dark" Color="Color.Dark" Outline @onclick="MostrarVentana">Agregar Productos</Button></center>
+
+<Modal @ref="modal" OnClose="CerrarVentana">
+    <ModalContent Size="ModalSize.Large" Centered="true">
+        <center>
+            <div class="centrado">
+                <h4 class="nombre2">@(modoEdicion ? "Editar Datos" : "Agregar Datos")</h4>
+
+                <div>
+                    <p class="espacio">
+                        <label class="nombre3">URL de la imagen:</label>
+                    </p>
+                    <p class="espacio2">
+                        <input type="text" @bind="@nuevaImagenUrl" />
+                    </p>
+                </div>
+
+                <div>
+                    <p class="espacio">
+                        <label class="nombre3">Nombre:</label>
+                    </p>
+                    <p class="espacio2">
+                        <input type="text" @bind="@nuevoNombre" />
+                    </p>
+                </div>
+
+
+                <div>
+                    <p class="espacio">
+                        <label class="nombre3" style="font-size: 16px;">Precio:</label>
+                    </p>
+                    <p class="espacio2">
+                        <input type="number" step="0.01" @bind="@nuevoPrecio" />
+                    </p>
+                </div>
+
+                <div>
+                    <p class="espacio">
+                        <label class="nombre3">Descripcion:</label>
+                    </p>
+                    <p class="espacio2">
+                        <input type="text" @bind="@nuevaDescripcion" />
+                    </p>
+                </div>
+
+                <Button class="btn btn-outline-success" Color="Color.Success" Outline @onclick="@(modoEdicion ? ActualizarDato : AgregarDato)">@((modoEdicion ? "Actualizar" : "Agregar"))</Button>
+                    <Button class="btn btn-outline-danger" @onclick="CerrarVentana" Color="Color.Danger" Outline>Cerrar</Button>
+
+            </div>
+        </center>
+    </ModalContent>
+</Modal>
+
+<div class="mesas-container">
+    <div class="bloques-datos">
+        @if (datos.Any())
+        {
+            @foreach (var dato in datos)
+            {
+                <div class="mesa">
+                    <div class="bloque-dato">
+                        <div class="block @(selectedDato== dato ? "selected" : "")" @onclick="() => SelectItem(dato)" @ondblclick="() => DeselectDato()">
+                            <img src="@dato.ImagenUrl" alt="Imagen">
+                            <p class="nombre3"><strong class="espacio2">Nombre:</strong> @dato.Nombre</p>
+                            <p class="nombre3"><strong>Precio:</strong> @dato.Precio.ToString("C")</p>
+                            <p class="nombre3"> <strong class="espacio2">Descripcion:</strong> @dato.Descripcion</p>
+                        </div>
+
+                        <Button class="btn btn-outline-warning" @onclick="(() => EditarDato(dato))" Color="Color.Warning" Outline>Editar</Button>
+                    <Button class="btn btn-outline-danger" @onclick="(() => EliminarDato(dato))" Color="Color.Danger" Outline>Eliminar</Button>
+
+                </div>
+            </div>
+            }
+        }
+        else
+        {
+            <center><p class="nombre3">No hay datos ingresados.</p></center>
+        }
+    </div>
+
+    <center><Button class="btn btn-outline-success" @onclick="Enviar" Color="Color.Success" Outline>Enviar</Button></center>
+</div>
+
+@code {
+    bool mostrarVentana = false;
+    bool modoEdicion = false;
+    List<Dato> datos = new List<Dato>();
+    Dato datoActual;
+    Dato selectedDato = null;
+
+    string nuevaImagenUrl;
+    string nuevoNombre;
+    decimal nuevoPrecio;
+    string nuevaDescripcion;
+
+    Modal modal;
+
+    class Dato
+    {
+        public string ImagenUrl { get; set; }
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
+        public string Descripcion { get; set; }
+    }
+
+    void Enviar()
+    {
+        NavigationManager.NavigateTo("/Informacion");
+    }
+
+    void MostrarVentana()
+    {
+        modoEdicion = false;
+        modal.Show();
+    }
+
+    void CerrarVentana()
+    {
+        modal.Hide();
+        LimpiarCampos();
+    }
+
+    void AgregarDato()
+    {
+        var nuevoDato = new Dato
+            {
+                ImagenUrl = nuevaImagenUrl,
+                Nombre = nuevoNombre,
+                Precio = nuevoPrecio,
+                Descripcion = nuevaDescripcion,
+            };
+
+        datos.Add(nuevoDato);
+        LimpiarCampos();
+        modal.Hide();
+    }
+
+    void EditarDato(Dato dato)
+    {
+        datoActual = dato;
+        nuevaImagenUrl = dato.ImagenUrl;
+        nuevoNombre = dato.Nombre;
+        nuevoPrecio = dato.Precio;
+        nuevaDescripcion = dato.Descripcion;
+        modoEdicion = true;
+        modal.Show();
+    }
+
+    void ActualizarDato()
+    {
+        datoActual.ImagenUrl = nuevaImagenUrl;
+        datoActual.Nombre = nuevoNombre;
+        datoActual.Precio = nuevoPrecio;
+        datoActual.Descripcion = nuevaDescripcion;
+        LimpiarCampos();
+        modoEdicion = false;
+        modal.Hide();
+    }
+
+    void EliminarDato(Dato dato)
+    {
+
+        datos.Remove(dato);
+
+    }
+
+    void LimpiarCampos()
+    {
+        nuevaImagenUrl = string.Empty;
+        nuevoNombre = string.Empty;
+        nuevoPrecio = 0;
+        nuevaDescripcion = string.Empty;
+    }
+
+    void SelectItem(Dato dato)
+    {
+        selectedDato = dato;
+    }
+
+    void DeselectDato()
+    {
+        selectedDato = null;
+    }
+
+}
+
+<style>
+
+
+    body {
+        background-color: #9BB8AF;
+    }
+
+    .mesas-container {
+        background-color: white;
+        padding: 20px;
+        margin: 50px auto;
+        width: 600px;
+    }
+
+    .mesa {
+        display: inline-block;
+        text-align: center;
+        margin: 20px;
+    }
+
+        .mesa img {
+            width: 250px;
+            height: 250px;
+        }
+
+    .nombre {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-style: italic
+    }
+
+    .nombre2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-style: italic;
+    }
+
+    .centrado {
+        background-color: white;
+        padding: 20px;
+        margin: 50px auto;
+        width: 400px;
+    }
+
+    .nombre3 {
+        font-style: italic;
+        color: black;
+    }
+
+    .espacio {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .espacio2 {
+        margin-right: 0px
+    }
+
+    .block {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+        .block.selected {
+            background-color: #7FC0AC;
+        }
+</style>

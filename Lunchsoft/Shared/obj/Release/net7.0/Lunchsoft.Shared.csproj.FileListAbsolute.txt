@@ -1,0 +1,12 @@
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\bin\Release\net7.0\Lunchsoft.Shared.deps.json
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\bin\Release\net7.0\Lunchsoft.Shared.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\bin\Release\net7.0\Lunchsoft.Shared.pdb
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.csproj.AssemblyReference.cache
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.AssemblyInfoInputs.cache
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.AssemblyInfo.cs
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\refint\Lunchsoft.Shared.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\Lunchsoft.Shared.pdb
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Shared\obj\Release\net7.0\ref\Lunchsoft.Shared.dll

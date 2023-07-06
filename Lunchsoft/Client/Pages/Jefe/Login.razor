@@ -1,0 +1,141 @@
+﻿@page "/login1"
+@inject NavigationManager NavigationManager
+
+@code {
+    string User = "";
+    string Pass = "";
+    int TypeFk = 3;
+    string Result = "";
+}
+
+<style>
+    body {
+        background-color: ;
+    }
+
+    .content-select select {
+        max-width: 250px;
+        position: relative;
+    }
+
+    .content-select {
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 7px 10px;
+        height: 42px;
+        outline: 0;
+        border: 0;
+        border-radius: 0;
+        background: #f0f0f0;
+        color: #7b7b7b;
+        font-size: 1em;
+        color: #000000;
+        font-family: 'Quicksand', sans-serif;
+        border: 2px solid rgba(0,0,0,0.2);
+        border-radius: 12px;
+        position: relative;
+        transition: all 0.25s ease;
+    }
+</style>
+
+<center>
+
+    <div style="padding: 20px" class="hb p-2">
+
+        <!--Imagen-->
+        <img class="mb-2 mt-3" src="./img/descarga1.png" width="50" height="50" />
+
+        <!--Label-->
+        <h2 style="font-size: 20px" class="pt fontBold">Iniciar sesión</h2>
+
+
+        <div>
+
+            <!--Textbox de Usuario-->
+            <div class="form-floating mt-4">
+                <input @bind="User" type="text" class="form-control font" placeholder="Nombre" required="">
+                <label for="Name" class="fontBold">Nombre</label>
+            </div>
+
+            <!--Textbox de Contraseña-->
+            <div class="form-floating mt-1">
+                <input @bind="Pass" type="password" class="form-control font" placeholder="Contraseña" required="">
+                <label class="fontBold" for="Pass">Contraseña</label>
+            </div>
+            <select @bind="TypeFk" class="content-select mt-2">
+                <option value="0">Opciones de empleados</option>
+                <option value="1">Jefe de Cocina</option>
+                <option value="2">Mesero</option>
+                <option value="3">Cajero</option>
+            </select>
+            <!--Boton de ingresar-->
+            <button @onclick="Ingresar" class="mt-3 w-100 btn btn-lg btn-primary fontBold" type="submit">Ingresar</button>
+
+            <!--Mensaje-->
+            <label class="error mt-3">@Result</label>
+
+            <!--Crear cuenta-->
+            <div>
+                <label class=" font" for="hola">¿No tienes Cuenta?</label>
+                <a class="font ml-1 link" @onclick="registro">Registrate</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</center>
+
+@code {
+
+    void registro()
+    {
+        NavigationManager.NavigateTo("/registro");
+    }
+
+    
+
+    async void Ingresar()
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(User) || string.IsNullOrEmpty(Pass) || TypeFk == 0)
+            {
+                Result = "Por favor, complete todos los campos.";
+            }
+            else
+            {
+                var result = await Shared.Acceso.Empleados.ObtenerEmpleado(User,Pass,TypeFk);
+
+                if (result.Any(empleado => empleado.User == User && empleado.Pass == Pass && empleado.TypeFk == TypeFk))
+                {
+                    Result = "Se inició sesión correctamente.";
+
+                    if (TypeFk == 1)
+                    {
+                        NavigationManager.NavigateTo("/Jefe");
+                    }
+                    else if (TypeFk == 2)
+                    {
+                        NavigationManager.NavigateTo("/Mesas");
+                    }
+                    else if (TypeFk == 3)
+                    {
+                        NavigationManager.NavigateTo("/Factura");
+                    }
+                }
+                else
+                {
+                    Result = "Credenciales de inicio de sesión incorrectas.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Result = "Error al iniciar sesión: " + ex.Message;
+            Console.WriteLine("ER:" + ex.Message);
+        }
+    }
+
+}

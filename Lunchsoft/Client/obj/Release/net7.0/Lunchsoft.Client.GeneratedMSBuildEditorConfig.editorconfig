@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Lunchsoft.Client
+build_property.RootNamespace = Lunchsoft.Client
+build_property.ProjectDir = C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Bebidas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxCZWJpZGFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Comida.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxDb21pZGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Factura.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxGYWN0dXJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Informacion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxJbmZvcm1hY2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Jefe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxKZWZlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Prueba.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxQcnVlYmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Reservas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxSZXNlcnZhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
