@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bAjXAR/iHS/+SZTgd5/2kuSQps3GZqKjGidO5q5nDDw=",
+  "Hash": "nNPAmfP+qzSo7Erauv4pQKx8qUjvIIgBvRa9hg1+Ga0=",
   "Source": "Lunchsoft.Server",
   "BasePath": "_content/Lunchsoft.Server",
   "Mode": "Default",
@@ -8359,6 +8359,23 @@
       "OriginalItemSpec": "wwwroot\\icon-512.png"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/burger.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\burger.png"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Project",
@@ -8459,6 +8476,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.css",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html.__projection.g.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html.__projection.g.css"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.js",

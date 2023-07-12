@@ -13,7 +13,7 @@ namespace Lunchsoft.Shared.Acceso
     {
         public static async Task<bool> CrearFactura(Models.Factura nuevaFactura)
         {
-            var url = $"{Url.Dominio}swagger/factura/crear";
+            var url = $"{Url.Dominio}factura/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())

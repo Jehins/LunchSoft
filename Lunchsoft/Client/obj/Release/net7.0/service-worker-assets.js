@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-ApvV\/81qZcuxqxfR7MK1gjS8uW+hGhjP+\/HfHaEGzGA=",
+      "hash": "sha256-i8JjB\/R3X46UL+b8BN\/MY0dgwKgQuN2eZ57ve5XLBZQ=",
       "url": "css\/app.css"
     },
     {
@@ -53,8 +53,16 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-UpT+iM6V3HIM3n7\/B1UWDOCQV8q0qcLm4agvvTKYbYM=",
+      "url": "img\/burger.png"
+    },
+    {
       "hash": "sha256-ozGZ8bPPXW6BIyOpjlnub0hzFo1vFAlky7dm3e8F7Lg=",
       "url": "img\/descarga1.png"
+    },
+    {
+      "hash": "sha256-81uCy7S82OhPN1v1N0RAjWcsENa+x2MZQji1uk0vYqQ=",
+      "url": "img\/Dual Ball-1s-200px.gif"
     },
     {
       "hash": "sha256-oZsdt\/ITG\/VIZ1aVDksHavl3KToX5GNI+DngiUimrO0=",
@@ -65,12 +73,28 @@
       "url": "img\/LunchSoft2.png"
     },
     {
-      "hash": "sha256-x988feEsijgy72RuBxUBbhiJGQB4jHMaepWRoNhA9R0=",
+      "hash": "sha256-dsIFEz7hTPIZz\/QYZDrBePS3V0LS\/0pcshCN9xmYhvI=",
+      "url": "img\/Ripple-1s-200px.gif"
+    },
+    {
+      "hash": "sha256-4e326C3b\/UuZmqgJyjnad6XIC8pO+MKow8ct6nJvUi8=",
       "url": "index.html"
     },
     {
       "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html.__projection.g.css"
+    },
+    {
+      "hash": "sha256-6LXq3Gs5YpjitEk7I73luGcH42CZBZwcjGws2ZHP1VA=",
       "url": "index.html.__projection.g.js"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html._projection.g.js"
+    },
+    {
+      "hash": "sha256-37haVAeGXldxjTezpJy2fXsweV1Xt7TXDBxaMHat464=",
+      "url": "index.html._projection.g.published.js"
     },
     {
       "hash": "sha256-qhGy+VlmNaFL\/dCAye7bGGkQS\/2IkpPzqm5Sa\/xb4Cw=",
@@ -117,7 +141,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-qOp6iCdl76yWcKKcLmtjxug9oetJXIVW2OWuoyGXJ7k=",
+      "hash": "sha256-aZkiFM3xHlX\/gJt0oOLQjuA+vYt0ATmSOcBPOdeyw8E=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -157,11 +181,11 @@
       "url": "_framework\/Blazorise.Snackbar.dll"
     },
     {
-      "hash": "sha256-kS72cuoU\/o6cP25qqDvUQGMOdtynpgpjIVJ9lFur5c4=",
+      "hash": "sha256-7rPDJzN6Grg0pKV7HG7IRPTP8B5XXVjJrtjTX7X1mUs=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-3maQCvijUfj2Xx7ii6Y8GtKjSiLRsLfUd0dmWdKnLMg=",
+      "hash": "sha256-CcYQ\/ElfEFLYoFWSUy8CsCGVkhjHywNizGb6soWs2bs=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
@@ -173,7 +197,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
-      "hash": "sha256-6R9fJ\/a0JWT1pKDXFdvdLYoQceDzXXNexNUdweuz8NA=",
+      "hash": "sha256-uqgjzOxfQrZdOj8g7xK7shaZEQZZBtrohb903rXTe\/U=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
@@ -557,5 +581,5 @@
       "url": "_content\/Blazorise\/vendors\/sha512.js"
     }
   ],
-  "version": "+8+QHu0f"
+  "version": "5PBQq\/PQ"
 };

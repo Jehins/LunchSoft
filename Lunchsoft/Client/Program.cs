@@ -26,7 +26,7 @@ client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
 
 #if DEBUG
 Lunchsoft.Shared.Url.Dominio = "http://localhost:5188/";
-#elif RESEALE
+#elif RELEASE
 Lunchsoft.Shared.Url.Dominio = "http://lunchsoft.somee.com/";
 #endif
 

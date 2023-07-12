@@ -10,9 +10,9 @@ namespace Lunchsoft.Shared.Acceso
 {
     public class PedidosDetalles
     {
-        public async Task<bool> CrearPedido(Shared.Models.PedidosDetalles nuevoPedido)
+        public async Task<bool> CrearPedidoD(Shared.Models.PedidosDetalles nuevoPedido)
         {
-            var url = $"{Url.Dominio}swagger/pedido/crear";
+            var url = $"{Url.Dominio}pedidodetalle/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -30,9 +30,9 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Shared.Models.PedidosDetalles>> ObtenerPedido()
+        public async Task<List<Shared.Models.PedidosDetalles>> ObtenerPedidoD()
         {
-            var url = $"{Url.Dominio}pedido/Get";
+            var url = $"{Url.Dominio}pedidodetalle/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -51,9 +51,9 @@ namespace Lunchsoft.Shared.Acceso
 
 
 
-        public async Task<bool> ActualizarEmpleado(Shared.Models.PedidosDetalles ActualizarPedido)
+        public async Task<bool> ActualizarPedidosD(Shared.Models.PedidosDetalles ActualizarPedido)
         {
-            var url = $"{Url.Dominio}empleados/update";
+            var url = $"{Url.Dominio}pedidodetalle/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -74,9 +74,9 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<bool> EliminarPedido(int Id)
+        public async Task<bool> EliminarPedidoD(int Id)
         {
-            var url = $"{Url.Dominio}factura/delete?id={Id}";
+            var url = $"{Url.Dominio}pedidodetalle/delete?id={Id}";
 
             using (HttpClient httpClient = new())
             {

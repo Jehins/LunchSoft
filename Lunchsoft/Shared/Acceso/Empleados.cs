@@ -13,7 +13,7 @@ namespace Lunchsoft.Shared.Acceso
         public static async Task<bool> CrearEmpleado(Models.Empleados nuevoEmpleado)
         {
             var url = $"{Url.Dominio}empleados/crear";
-
+            Console.WriteLine(url);
             using (var httpClient = new HttpClient())
             {
                 var jsonEmpleado = JsonSerializer.Serialize(nuevoEmpleado);
@@ -30,6 +30,7 @@ namespace Lunchsoft.Shared.Acceso
         public static async Task<Models.Empleados>  ObtenerEmpleado(string user, string pass)
         {
             var url = $"{Url.Dominio}empleados/Get";
+            Console.WriteLine(url);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m7SVj+bbYK6nNuG1UCBa9otDcwx8qUU36mLK66h90IQ=",
+  "Hash": "xqw+fJ06pZwG/5R1dkJqMUYXW0muejHGLNYfB65TFaI=",
   "Source": "Lunchsoft.Server",
   "BasePath": "_content/Lunchsoft.Server",
   "Mode": "Default",
@@ -8359,6 +8359,23 @@
       "OriginalItemSpec": "wwwroot\\icon-512.png"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/burger.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\burger.png"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Project",
@@ -8374,6 +8391,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\descarga1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\Dual Ball-1s-200px.gif",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Dual Ball-1s-200px.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Dual Ball-1s-200px.gif"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\LunchSoft.png",
@@ -8410,6 +8444,23 @@
       "OriginalItemSpec": "wwwroot\\img\\LunchSoft2.png"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\Ripple-1s-200px.gif",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Ripple-1s-200px.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Ripple-1s-200px.gif"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Project",
@@ -8427,6 +8478,23 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.css",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html.__projection.g.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html.__projection.g.css"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.js",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Project",
@@ -8442,6 +8510,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html.__projection.g.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html._projection.g.js",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html._projection.g.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html._projection.g.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html._projection.g.published.js",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html._projection.g.published.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html._projection.g.published.js"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\js\\material.js",

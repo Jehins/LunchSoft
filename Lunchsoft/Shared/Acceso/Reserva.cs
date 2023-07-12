@@ -12,7 +12,7 @@ namespace Lunchsoft.Shared.Acceso
     {
         public static async Task<bool> CrearReserva(Shared.Models.Reserva nuevaReserva)
         {
-            var url = $"{Url.Dominio}swagger/reserva/crear";
+            var url = $"{Url.Dominio}reserva/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())

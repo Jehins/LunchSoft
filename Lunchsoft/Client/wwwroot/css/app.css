@@ -31,3 +31,9 @@ h1:focus {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+
+    .font-bold{
+        font-weight: bold !important;
+    }

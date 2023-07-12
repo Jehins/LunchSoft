@@ -1,5 +1,6 @@
 h1:focus {
     outline: none;
+    color: #f2f2f2;
 }
 
 #blazor-error-ui {
@@ -29,4 +30,10 @@ h1:focus {
 
     .blazor-error-boundary::after {
         content: "An error has occurred."
+    }
+
+
+
+    .font-bold{
+        font-weight: bold !important;
     }

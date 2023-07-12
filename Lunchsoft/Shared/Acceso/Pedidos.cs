@@ -14,7 +14,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> CrearPedido(Shared.Models.Pedido nuevoPedido)
         {
-            var url = $"{Url.Dominio}swagger/pedido/crear";
+            var url = $"{Url.Dominio}pedido/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())

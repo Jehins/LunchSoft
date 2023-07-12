@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-ApvV\/81qZcuxqxfR7MK1gjS8uW+hGhjP+\/HfHaEGzGA=",
+      "hash": "sha256-i8JjB\/R3X46UL+b8BN\/MY0dgwKgQuN2eZ57ve5XLBZQ=",
       "url": "css\/app.css"
     },
     {
@@ -53,6 +53,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-UpT+iM6V3HIM3n7\/B1UWDOCQV8q0qcLm4agvvTKYbYM=",
+      "url": "img\/burger.png"
+    },
+    {
       "hash": "sha256-ozGZ8bPPXW6BIyOpjlnub0hzFo1vFAlky7dm3e8F7Lg=",
       "url": "img\/descarga1.png"
     },
@@ -73,7 +77,7 @@
       "url": "img\/Ripple-1s-200px.gif"
     },
     {
-      "hash": "sha256-kxUUTp2h0kkR4NCIsPgPBrsxLYnRu90ubP6T2\/e4zAY=",
+      "hash": "sha256-4e326C3b\/UuZmqgJyjnad6XIC8pO+MKow8ct6nJvUi8=",
       "url": "index.html"
     },
     {
@@ -86,6 +90,10 @@
     },
     {
       "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html.__projection.g.css"
+    },
+    {
+      "hash": "sha256-6LXq3Gs5YpjitEk7I73luGcH42CZBZwcjGws2ZHP1VA=",
       "url": "index.html.__projection.g.js"
     },
     {
@@ -941,19 +949,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Wfzkg2IHDly28XxLHvVyaZ3Dpu30wu\/Q\/PIZlNY6yO0=",
+      "hash": "sha256-8X3IkBy0V6cUPJzjWz3PIVHGv+l470zS2eOIHrVgE8o=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-\/FeY84aWTwGCSn51gxwQbMl5xU93EFvJz6okFs5Gv9Q=",
+      "hash": "sha256-sJSsYMWSxoHN1oTsfnvqjnPNEBqA\/w8Vb1EdJNMdsGc=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-LaJ1SEs4uhnKXeMQMlNHwLwDz3rzeZRjR0Gw2OzZ\/mc=",
+      "hash": "sha256-nehhT6ulXKBvVkO+vrLIXdD8pWxqj\/XBA31fhgIsl98=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-KspFGbI4c2gqrq8FAN6HExGyk9auwTgDdkEAYgJ4RVA=",
+      "hash": "sha256-tpO11ouigm5i07Qj4RoKKFq3lMiJe6mxpPV5+xgIn0s=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -961,7 +969,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-fMLOgyc+Xl6g0IHTYmx1EaCAFh+dLeNlcWGbeWbhuJM=",
+      "hash": "sha256-DE6YrwFgEC2SH0HKQvwichZsrSHunbDt4z4p7TBXmCI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1157,5 +1165,5 @@
       "url": "_content\/Blazorise.Icons.Material\/blazorise.icons.material.css"
     }
   ],
-  "version": "ojXqSp\/Y"
+  "version": "YmEsqyiz"
 };

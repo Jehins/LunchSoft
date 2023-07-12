@@ -85,12 +85,20 @@
       "PackagePath": "staticwebassets\\img\\Ripple-1s-200px.gif"
     },
     {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
+      "PackagePath": "staticwebassets\\img\\burger.png"
+    },
+    {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
       "PackagePath": "staticwebassets\\img\\descarga1.png"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.css",
+      "PackagePath": "staticwebassets\\index.html.__projection.g.css"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.js",
