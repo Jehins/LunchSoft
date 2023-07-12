@@ -1,0 +1,82 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fontBold {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+
+.display-vertical {
+    display:flex !important;
+    align-items: center !important;
+}
+
+
+.error{
+    color: red;
+}
+
+
+
+
+.ar {
+    border-left: 5px;
+    border-width: 5px;
+    border-right: 5px;
+    border-color: black;
+  }
+
+
+    .link {
+      color: #333333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+
+
+
+  .ae {
+    color: green;
+  }
+
+  .pt {
+    color: rgb(0, 0, 0);
+    mar
+  }
+
+  .body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .pp {
+    margin-bottom: 8px;
+  }
+
+  .ss {
+    margin-bottom: 8px;
+  }
+
+  .hb {
+    margin-top: 1cm;
+    width: 300px;
+    background-color: Kaynak;
+    align-self: center;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+  }
+  .seba {
+    color: #008a23;
+  }
+
+
+ 

@@ -5,14 +5,20 @@
 
     protected override void OnInitialized()
     {
-        if(Sesion.Empleados.Name == "")
+        if(Sesion.Empleado.Name == "")
         {
             NavigationManager.NavigateTo("/login");
             return;
         }
         else
         {
-            Name = Sesion.Empleados.Name;
+            Name = Sesion.Empleado.Name;
         }
     }
 }
+<style>
+    .body{
+        background-color: #F2F2F2;
+        color: #333333;
+    }
+</style>

@@ -17,11 +17,11 @@
         }
 
 
-        public static Shared.Models.Empleados? GetBy(string User, string Pass, int TypeFk)
+        public static Shared.Models.Empleados? GetBy(string User, string Pass)
         {
             try
             {
-                string query = $""" SELECT * FROM EMPLEADO WHERE USER = '{User}' AND PASS = '{Pass}' AND TYPE_FK = {TypeFk} """;
+                string query = $""" SELECT * FROM EMPLEADO WHERE USER = '{User}' AND PASS = '{Pass}'""";
 
                 MySql.Data.MySqlClient.MySqlConnection conexion = DataBase.GetConnection();
 

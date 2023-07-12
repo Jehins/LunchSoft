@@ -12,9 +12,9 @@ namespace Lunchsoft.Shared.Acceso
     public class Pedidos
     {
 
-        public async Task<bool> CrearPedido(Pedido nuevoPedido)
+        public async Task<bool> CrearPedido(Shared.Models.Pedido nuevoPedido)
         {
-            var url = "http://lunchsoft.somee.com/swagger/pedido/crear";
+            var url = $"{Url.Dominio}swagger/pedido/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -32,9 +32,9 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Pedido>> ObtenerPedido()
+        public async Task<List<Shared.Models.Pedido>> ObtenerPedido()
         {
-            var url = "http://lunchsoft.somee.com/pedido/Get";
+            var url = $"{Url.Dominio}pedido/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -43,11 +43,9 @@ namespace Lunchsoft.Shared.Acceso
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
-                    var pedido = JsonSerializer.Deserialize<List<Pedido>>(content, options);
-
+                    var pedido = JsonSerializer.Deserialize<List<Shared.Models.Pedido>>(content, options);
                     return pedido;
                 }
-
                 return new();
             }
         }
@@ -55,9 +53,9 @@ namespace Lunchsoft.Shared.Acceso
 
 
 
-        public async Task<bool> ActualizarEmpleado(Pedido ActualizarPedido)
+        public async Task<bool> ActualizarEmpleado(Shared.Models.Pedido ActualizarPedido)
         {
-            var url = $"http://lunchsoft.somee.com/empleados/update";
+            var url = $"{Url.Dominio}empleados/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -76,11 +74,9 @@ namespace Lunchsoft.Shared.Acceso
                 }
             }
         }
-
-
-        public async Task<bool> EliminarPedido(Pedido EliminarPedido)
+        public async Task<bool> EliminarPedido(int Id)
         {
-            var url = $"http://lunchsoft.somee.com/pedido/delete";
+            var url = $"{Url.Dominio}pedido/delete?Id={Id}";
 
             using (HttpClient httpClient = new())
             {

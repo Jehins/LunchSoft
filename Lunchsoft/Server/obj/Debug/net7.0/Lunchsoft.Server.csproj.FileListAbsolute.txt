@@ -104,6 +104,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.Icons.FontAwesome.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.Icons.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.Licensing.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.LoadingIndicator.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Google.Protobuf.dll
@@ -122,9 +123,13 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Microsoft.JSInterop.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\MySql.Data.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
@@ -149,6 +154,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.AssemblyInfoInputs.cache
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.AssemblyInfo.cs
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.csproj.CoreCompileInputs.cache
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\staticwebassets\msbuild.Lunchsoft.Server.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Lunchsoft.Server.props
@@ -164,4 +170,3 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.pdb
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\Lunchsoft.Server.genruntimeconfig.cache
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Debug\net7.0\ref\Lunchsoft.Server.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Debug\net7.0\Blazorise.LoadingIndicator.dll

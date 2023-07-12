@@ -45,6 +45,10 @@
       "url": "css\/material.min.css.map"
     },
     {
+      "hash": "sha256-BY6v1kfrLiRZfVmGWfSpY9ko2Sv9M9pc5zDDm4D5Rf8=",
+      "url": "css\/styles.css"
+    },
+    {
       "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
       "url": "icon-512.png"
     },
@@ -61,8 +65,12 @@
       "url": "img\/LunchSoft2.png"
     },
     {
-      "hash": "sha256-O9pjyIwlUTr2jKPIj\/jTsRlz\/DfHxwd6X8BbrMZpAZ8=",
+      "hash": "sha256-x988feEsijgy72RuBxUBbhiJGQB4jHMaepWRoNhA9R0=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html.__projection.g.js"
     },
     {
       "hash": "sha256-qhGy+VlmNaFL\/dCAye7bGGkQS\/2IkpPzqm5Sa\/xb4Cw=",
@@ -921,11 +929,11 @@
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-+XxKsru57O8D91thysDweFKFWYfuaCX4HTFKHltv0YY=",
+      "hash": "sha256-IOoNC+bzSgEcDCqLZEgHaRfrg\/s6lDCrXcLr7GfZN9Q=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-PqIrVd3TcTGkLQGkt+5tIWGadhsmZVLRBo5nfz6Sy0s=",
+      "hash": "sha256-jkUmeu7Wwsq+ZT9\/rxFtl08pRD\/G5cmng+belu6GIxQ=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -933,8 +941,12 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-CyPAXyBCHPVq4cPW856bjxd7w6CfuAME6L15VlNVbfU=",
+      "hash": "sha256-9BLCofmgn9RDsx2prtpcut8DYeDbAo2F9ICmIE7mv7U=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-vWsehFl5XQreQ\/Ym+HkRFtn\/gg3oz7mYsdWY3KG1SAk=",
+      "url": "_framework\/Blazorise.LoadingIndicator.dll"
     },
     {
       "hash": "sha256-UA6w5KLiBddbPt+HJ1ZV0cb\/VnxpUBLE0NW26Vr4fk4=",
@@ -1117,9 +1129,17 @@
       "url": "_content\/Blazorise.Material\/tooltip.js"
     },
     {
+      "hash": "sha256-DgtUZc5xosaU+syumuLZSD8Wj5dR4yiEpnKLohiHsNk=",
+      "url": "_content\/Blazorise.LoadingIndicator\/blazorise.loadingindicator.css"
+    },
+    {
+      "hash": "sha256-7viLDAQ1Hte0z3cVhE33JuBjs3qoGoUNImB6Zd9aYkE=",
+      "url": "_content\/Blazorise.LoadingIndicator\/blazorise.loadingindicator.min.css"
+    },
+    {
       "hash": "sha256-fOOcpqMtMMQXDmwY0+SM6Cg\/gAYRM6Rrpzv10hyfcBY=",
       "url": "_content\/Blazorise.Icons.Material\/blazorise.icons.material.css"
     }
   ],
-  "version": "vMKl66MU"
+  "version": "4Nb2ZbKO"
 };

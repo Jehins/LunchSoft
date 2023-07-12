@@ -871,3 +871,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\refint\Lunchsoft.Client.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\Lunchsoft.Client.pdb
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\ref\Lunchsoft.Client.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll.gz
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.LoadingIndicator.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\GBkHGQ0K.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W++u/oEU+wHC1xt+ibtqui9sv2yQ2QHstUAub4KkXMg=",
+  "Hash": "Pm9OUWjPJnAsgPiZs9xu1UdCn91bi4gDNaB1CJJMxJY=",
   "Source": "Lunchsoft.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.icons.material\\1.2.4\\staticwebassets\\blazorise.icons.material.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\blazorise.loadingindicator.css",
+      "SourceId": "Blazorise.LoadingIndicator",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.LoadingIndicator",
+      "RelativePath": "blazorise.loadingindicator.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\blazorise.loadingindicator.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\blazorise.loadingindicator.min.css",
+      "SourceId": "Blazorise.LoadingIndicator",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.LoadingIndicator",
+      "RelativePath": "blazorise.loadingindicator.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\staticwebassets\\blazorise.loadingindicator.min.css"
     },
     {
       "Identity": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.material\\1.2.4\\staticwebassets\\blazorise.material.css",
@@ -933,6 +967,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.licensing\\1.1.0\\lib\\net7.0\\Blazorise.Licensing.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\Blazorise.LoadingIndicator.dll",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazorise.LoadingIndicator.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jehins\\.nuget\\packages\\blazorise.loadingindicator\\1.2.4\\lib\\net7.0\\Blazorise.LoadingIndicator.dll"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\Blazorise.Material.dll",
@@ -5678,6 +5729,23 @@
       "OriginalItemSpec": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.dll"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\obj\\Release\\net7.0\\build-gz\\GBkHGQ0K.gz",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazorise.LoadingIndicator.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\Blazorise.LoadingIndicator.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\Blazorise.LoadingIndicator.dll"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\obj\\Release\\net7.0\\build-gz\\gdk5k8Ok.gz",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Computed",
@@ -8279,6 +8347,23 @@
       "OriginalItemSpec": "wwwroot\\css\\material-plugins.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\css\\styles.css",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\icon-512.png",
       "SourceId": "Lunchsoft.Client",
       "SourceType": "Discovered",
@@ -8362,6 +8447,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html.__projection.g.js",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index.html.__projection.g.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html.__projection.g.js"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\js\\material.js",

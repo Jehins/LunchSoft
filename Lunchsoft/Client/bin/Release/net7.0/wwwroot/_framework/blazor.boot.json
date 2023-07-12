@@ -13,6 +13,7 @@
       "Blazorise.Icons.FontAwesome.dll": "sha256-NMORvkFsRrABcRVCuPDZCK8R1j+qwxbmtdqKZlgeEKQ=",
       "Blazorise.Icons.Material.dll": "sha256-DqlCZwXENV72zKJLVdja2tI8i9fMSSEFMVpTOb0ny5w=",
       "Blazorise.Licensing.dll": "sha256-HCvMfGG13thv3GWvUEN2Ca7avc0Bjw5kpc9h9Kk+LS0=",
+      "Blazorise.LoadingIndicator.dll": "sha256-vWsehFl5XQreQ\/Ym+HkRFtn\/gg3oz7mYsdWY3KG1SAk=",
       "Blazorise.Material.dll": "sha256-h2CnjurDF9A+I7a3bCBSEBHpROfgTfwvc7EwRmkIezo=",
       "Blazorise.Snackbar.dll": "sha256-o+BFBXNTqly+xTO+uvs6uR9\/4jC+WclOaho1FO5vkcI=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-3H1\/2dJ6LCSFrDwMxcIF9c89g7e2WDms+gUxX9yXsCE=",
@@ -207,15 +208,15 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "Lunchsoft.Shared.dll": "sha256-nZYPtF27p0zQHdg9jLlPZuCAUBUIs9CNZieBm20h2EA=",
-      "Lunchsoft.Client.dll": "sha256-IOoNC+bzSgEcDCqLZEgHaRfrg\/s6lDCrXcLr7GfZN9Q="
+      "Lunchsoft.Shared.dll": "sha256-3maQCvijUfj2Xx7ii6Y8GtKjSiLRsLfUd0dmWdKnLMg=",
+      "Lunchsoft.Client.dll": "sha256-kS72cuoU\/o6cP25qqDvUQGMOdtynpgpjIVJ9lFur5c4="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Lunchsoft.Shared.pdb": "sha256-evRLiAekVe227gI5iDPXaw3\/ezbLrK3RXspH2CCKk9E=",
-      "Lunchsoft.Client.pdb": "sha256-jkUmeu7Wwsq+ZT9\/rxFtl08pRD\/G5cmng+belu6GIxQ="
+      "Lunchsoft.Shared.pdb": "sha256-bQwUy70E05qQfGXOFFv6hswE8LkvYVjAjF5vh3URVHQ=",
+      "Lunchsoft.Client.pdb": "sha256-JNmI+kOGl2WiYRZSMUP4RwPoJuKr28V5nmKJHxESKqY="
     },
     "runtime": {
       "dotnet.7.0.5.eqs19pya6r.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",

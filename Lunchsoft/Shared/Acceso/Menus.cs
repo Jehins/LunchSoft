@@ -13,7 +13,7 @@ namespace Lunchsoft.Shared.Acceso
     {
         public static async Task<bool> CrearMenu(Shared.Models.Menus nuevoMenu)
         {
-            var url = "http://lunchsoft.somee.com/menu/crear";
+            var url = $"{Url.Dominio}menu/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -30,9 +30,9 @@ namespace Lunchsoft.Shared.Acceso
             }
         }
 
-        public async Task<List<Menus>> ObtenerMenu()
+        public async Task<List<Shared.Models.Menus>> ObtenerMenu()
         {
-            var url = $"http://lunchsoft.somee.com/menu/get";
+            var url = $"{Url.Dominio}menu/get";
 
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             using (var httpClient = new HttpClient())
@@ -41,15 +41,15 @@ namespace Lunchsoft.Shared.Acceso
                 if (response.IsSuccessStatusCode)
                 {
                     var Content = await response.Content.ReadAsStringAsync();
-                    var menus = JsonSerializer.Deserialize<List<Menus>>(Content, options);
+                    var menus = JsonSerializer.Deserialize<List<Shared.Models.Menus>>(Content, options);
                     return menus;
                 }
                 return new();
             }
         }
-        public static async Task<bool> ActualizarMenu(Menus menuActualizado)
+        public static async Task<bool> ActualizarMenu(Shared.Models.Menus menuActualizado)
         {
-            var url = $"http://lunchsoft.somee.com/menu/update";
+            var url = $"{Url.Dominio}menu/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -69,9 +69,9 @@ namespace Lunchsoft.Shared.Acceso
 
             }
         }
-        public static async Task<bool> EliminarMenu(Menus menuId)
+        public static async Task<bool> EliminarMenu(int Id)
         {
-            var url = $"http://lunchsoft.somee.com/menu/delete";
+            var url = $"{Url.Dominio}menu/delete?Id={Id}";
 
             using (var httpClient = new HttpClient())
             {

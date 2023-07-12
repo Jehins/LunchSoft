@@ -879,6 +879,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.Icons.FontAwesome.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.Icons.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.Licensing.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.5.eqs19pya6r.js
@@ -1157,6 +1158,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
@@ -1307,6 +1309,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.Icons.FontAwesome.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.Icons.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.Licensing.dll
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.LoadingIndicator.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.Material.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
@@ -1522,6 +1525,7 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\1UXqTSva.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\PWyghB1b.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\5llcwIOx.gz
+C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\GBkHGQ0K.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\rlQRIIU2.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\JJqP4OXf.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\XN+vdji+.gz
@@ -1744,7 +1748,3 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\refint\Lunchsoft.Client.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\Lunchsoft.Client.pdb
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\ref\Lunchsoft.Client.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Debug\net7.0\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Debug\net7.0\build-gz\GBkHGQ0K.gz

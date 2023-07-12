@@ -5,6 +5,6 @@ namespace Lunchsoft.Client
     public class Sesion
     {
 
-        public static Empleados Empleados = new();
+        public static Empleados Empleado = new();
     }
 }

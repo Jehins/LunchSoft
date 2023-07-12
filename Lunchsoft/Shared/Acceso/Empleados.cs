@@ -12,7 +12,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<bool> CrearEmpleado(Models.Empleados nuevoEmpleado)
         {
-            var url = "http://lunchsoft.somee.com/empleados/crear";
+            var url = $"{Url.Dominio}empleados/crear";
 
             using (var httpClient = new HttpClient())
             {
@@ -27,23 +27,26 @@ namespace Lunchsoft.Shared.Acceso
 
             }
         }
-        public static async Task<List<Models.Empleados>> ObtenerEmpleado(string User, string Pass, int TypeFk)
+        public static async Task<Models.Empleados>  ObtenerEmpleado(string user, string pass)
         {
-            var url = $"http://lunchsoft.somee.com/empleados/Get?User={User}&Pass={Pass}&TypeFk={TypeFk}";
+            var url = $"{Url.Dominio}empleados/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
             {
+                httpClient.DefaultRequestHeaders.Add("User", user);
+                httpClient.DefaultRequestHeaders.Add("Pass", pass);
+
                 var response = await httpClient.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
-                    var empleado = JsonSerializer.Deserialize<List<Models.Empleados>>(content, options);
+                    var empleado = JsonSerializer.Deserialize<Models.Empleados>(content, options);
 
                     return empleado;
                 }
 
-                return new List<Models.Empleados>();
+                return new Models.Empleados();
             }
         }
 
@@ -53,7 +56,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> ActualizarEmpleado(Models.Empleados empleadoActualizado)
         {
-            var url = $"http://lunchsoft.somee.com/empleados/update";
+            var url = $"{Url.Dominio}empleados/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -76,7 +79,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> EliminarEmpleado(int Id)
         {
-            var url = $"http://lunchsoft.somee.com/empleados/delete?Id={Id}";
+            var url = $"{Url.Dominio}empleados/delete?Id={Id}";
 
             using (HttpClient httpClient = new())
             {

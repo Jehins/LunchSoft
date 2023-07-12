@@ -13,7 +13,7 @@ namespace Lunchsoft.Shared.Acceso
     {
         public static async Task<bool> CrearFactura(Models.Factura nuevaFactura)
         {
-            var url = "http://lunchsoft.somee.com/swagger/factura/crear";
+            var url = $"{Url.Dominio}swagger/factura/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -33,7 +33,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<List<Models.Factura>> ObtenerFactura()
         {
-            var url = "http://lunchsoft.somee.com/factura/Get";
+            var url = $"{Url.Dominio}factura/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -43,10 +43,8 @@ namespace Lunchsoft.Shared.Acceso
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     var factura = JsonSerializer.Deserialize<List<Models.Factura>>(content, options);
-
                     return factura;
                 }
-
                 return new();
             }
         }
@@ -56,7 +54,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> ActualizarFactura(Models.Factura FacturaActualizado)
         {
-            var url = $"http://lunchsoft.somee.com/factura/update";
+            var url = $"{Url.Dominio}factura/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -79,7 +77,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> EliminarEmpleado(int Id)
         {
-            var url = $"http://lunchsoft.somee.com/factura/delete?Id={Id}";
+            var url = $"{Url.Dominio}factura/delete?Id={Id}";
             using (HttpClient httpClient = new())
             {
                 var response = await httpClient.DeleteAsync(url);

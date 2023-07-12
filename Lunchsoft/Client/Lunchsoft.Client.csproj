@@ -7,12 +7,24 @@
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Remove="Pages\Mesas.razor" />
+    <Content Remove="Pages\Product.razor" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Pages\Index.razor" />
+    <None Include="Compartido\Product.razor" />
   </ItemGroup>
 
   <ItemGroup>

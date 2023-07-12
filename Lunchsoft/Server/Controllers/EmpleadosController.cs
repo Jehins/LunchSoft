@@ -61,14 +61,11 @@ namespace Lunchsoft.Server.Controllers
             }
         }
 
+
+
         [HttpGet("Get")]
-        public ActionResult GetBy([FromHeader] string User, string Pass, int TypeFk)
+        public ActionResult GetBy([FromHeader] string User, [FromHeader] string Pass)
         {
-            if (TypeFk != 1 && TypeFk != 2 && TypeFk != 3)
-                return BadRequest("Tipo es inválido");
-
-
-
             if (User == "" || Pass == "")
             {
                 return BadRequest("Algun campo está vacío");
@@ -76,7 +73,7 @@ namespace Lunchsoft.Server.Controllers
 
             Pass = Encriptar.Encripta(Pass);
 
-            var empleados = Data.Empleados.GetBy(User, Pass, TypeFk);
+            var empleados = Data.Empleados.GetBy(User, Pass);
 
             if (empleados != null)
             {

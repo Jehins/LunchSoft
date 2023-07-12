@@ -10,9 +10,9 @@ namespace Lunchsoft.Shared.Acceso
 {
     public class Reserva
     {
-        public static async Task<bool> CrearReserva(Models.Reserva nuevaReserva)
+        public static async Task<bool> CrearReserva(Shared.Models.Reserva nuevaReserva)
         {
-            var url = "http://lunchsoft.somee.com/swagger/reserva/crear";
+            var url = $"{Url.Dominio}swagger/reserva/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -30,9 +30,9 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Models.Reserva>> ObtenerReserva()
+        public async Task<List<Shared.Models.Reserva>> ObtenerReserva()
         {
-            var url = "http://lunchsoft.somee.com/reserva/Get";
+            var url = $"{Url.Dominio}reserva/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -41,11 +41,9 @@ namespace Lunchsoft.Shared.Acceso
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
-                    var reserva = JsonSerializer.Deserialize<List<Models.Reserva>>(content, options);
-
+                    var reserva = JsonSerializer.Deserialize<List<Shared.Models.Reserva>>(content, options);
                     return reserva;
                 }
-
                 return new();
             }
         }
@@ -53,9 +51,9 @@ namespace Lunchsoft.Shared.Acceso
 
 
 
-        public static async Task<bool> ActualizarEmpleado(Models.Reserva reservaoActualizado)
+        public static async Task<bool> ActualizarEmpleado(Shared.Models.Reserva reservaoActualizado)
         {
-            var url = $"http://lunchsoft.somee.com/reserva/update";
+            var url = $"{Url.Dominio}reserva/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -76,13 +74,11 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public static async Task<bool> EliminarEmpleado(Models.Reserva EliminarReserva)
+        public static async Task<bool> EliminarEmpleado(int Id)
         {
-            var url = $"http://lunchsoft.somee.com/reserva/delete";
-
+            var url = $"{Url.Dominio}reserva/delete?Id={Id}";
             using (HttpClient httpClient = new())
             {
-
                 var response = await httpClient.DeleteAsync(url);
                 if (response.IsSuccessStatusCode)
                     return true;

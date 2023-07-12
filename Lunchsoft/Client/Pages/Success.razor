@@ -1,0 +1,25 @@
+﻿@page "/success"
+
+@inject NavigationManager Manager
+
+@code {
+    
+    int TypeFk = 3;
+
+    protected override void OnInitialized() 
+    {
+        if (Sesion.Empleado.TypeFk == 1)
+        {
+            Manager.NavigateTo("/Jefe");
+        }
+        else if (Sesion.Empleado.TypeFk == 2)
+        {
+            Manager.NavigateTo("/Mesas");
+        }
+        else if (Sesion.Empleado.TypeFk == 3)
+        {
+            Manager.NavigateTo("/Factura");
+        }
+    }
+    
+}

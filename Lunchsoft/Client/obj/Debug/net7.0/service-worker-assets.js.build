@@ -57,6 +57,10 @@
       "url": "img\/descarga1.png"
     },
     {
+      "hash": "sha256-81uCy7S82OhPN1v1N0RAjWcsENa+x2MZQji1uk0vYqQ=",
+      "url": "img\/Dual Ball-1s-200px.gif"
+    },
+    {
       "hash": "sha256-oZsdt\/ITG\/VIZ1aVDksHavl3KToX5GNI+DngiUimrO0=",
       "url": "img\/LunchSoft.png"
     },
@@ -65,8 +69,24 @@
       "url": "img\/LunchSoft2.png"
     },
     {
-      "hash": "sha256-YSICcg5krx6Rfzc344Bs88vbZQ\/aXjM3JyU9u6HP7xM=",
+      "hash": "sha256-dsIFEz7hTPIZz\/QYZDrBePS3V0LS\/0pcshCN9xmYhvI=",
+      "url": "img\/Ripple-1s-200px.gif"
+    },
+    {
+      "hash": "sha256-kxUUTp2h0kkR4NCIsPgPBrsxLYnRu90ubP6T2\/e4zAY=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html._projection.g.js"
+    },
+    {
+      "hash": "sha256-37haVAeGXldxjTezpJy2fXsweV1Xt7TXDBxaMHat464=",
+      "url": "index.html._projection.g.published.js"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "index.html.__projection.g.js"
     },
     {
       "hash": "sha256-qhGy+VlmNaFL\/dCAye7bGGkQS\/2IkpPzqm5Sa\/xb4Cw=",
@@ -921,19 +941,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-9bzaI9WAxo0sdF7fdgGIzYj8WYpzlouNFjJv\/abKkKo=",
+      "hash": "sha256-Wfzkg2IHDly28XxLHvVyaZ3Dpu30wu\/Q\/PIZlNY6yO0=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-geH7F9ARuZZJSnJMXxzghuumgz+Bzwg32K7sj6JSKbs=",
+      "hash": "sha256-\/FeY84aWTwGCSn51gxwQbMl5xU93EFvJz6okFs5Gv9Q=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-ov1OVbz1F\/5gyCY4B6LGFsC0Vby6Rz3Kr5hVYm5mxLo=",
+      "hash": "sha256-LaJ1SEs4uhnKXeMQMlNHwLwDz3rzeZRjR0Gw2OzZ\/mc=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-LnSziBzaMS649yOSQ3eFC56rSo0zI+iAeRNBk0Dr4lo=",
+      "hash": "sha256-KspFGbI4c2gqrq8FAN6HExGyk9auwTgDdkEAYgJ4RVA=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -941,7 +961,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-slrzaTaKRGC7LBf5+8EJ8EO6rxFxlU3g1lvdlYGZvPU=",
+      "hash": "sha256-fMLOgyc+Xl6g0IHTYmx1EaCAFh+dLeNlcWGbeWbhuJM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1137,5 +1157,5 @@
       "url": "_content\/Blazorise.Icons.Material\/blazorise.icons.material.css"
     }
   ],
-  "version": "8efwlpMy"
+  "version": "ojXqSp\/Y"
 };
