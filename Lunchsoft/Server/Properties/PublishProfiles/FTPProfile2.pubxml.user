@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPvIJnOiiAEOH0X82fkB3ewAAAAACAAAAAAAQZgAAAAEAACAAAACruC1pUOCsjE4fRbgabMfHMCCICPvvlutEJfrg2H5kqQAAAAAOgAAAAAIAACAAAABsebcRNucZvZipNYWdxrErxLsCFZCSioHdauFWvXha5SAAAACbcYxcOmU060Xu4N+Vq4X77I3ft+yhumny2umnb1f+OEAAAAAZSWPdpqkHZgeIl7vE8nhp6SuaZCtJdTPel24CgdGHnawgifrtFsVLVyBvh8kUby673O0ANet0wtfRGyKpTfud</EncryptedPassword>
     <_PublishTargetUrl>ftp://lunchsoft.somee.com/www.lunchsoft.somee.com</_PublishTargetUrl>
-    <History>True|2023-07-12T05:54:10.5878977Z;False|2023-07-11T22:49:15.3909599-05:00;True|2023-07-11T22:45:07.7229651-05:00;True|2023-07-11T19:51:31.7538569-05:00;True|2023-07-08T16:11:00.4090389-05:00;</History>
+    <History>True|2023-07-12T16:29:35.0391729Z;True|2023-07-12T00:54:10.5878977-05:00;False|2023-07-11T22:49:15.3909599-05:00;True|2023-07-11T22:45:07.7229651-05:00;True|2023-07-11T19:51:31.7538569-05:00;True|2023-07-08T16:11:00.4090389-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -84,22 +84,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/08/2022 13:08:14</publishTime>
     </File>
     <File Include="Lunchsoft.Client.dll">
-      <publishTime>07/12/2023 00:43:32</publishTime>
+      <publishTime>07/12/2023 11:15:39</publishTime>
     </File>
     <File Include="Lunchsoft.Client.pdb">
-      <publishTime>07/12/2023 00:43:32</publishTime>
+      <publishTime>07/12/2023 11:15:39</publishTime>
     </File>
     <File Include="Lunchsoft.Server.deps.json">
-      <publishTime>07/12/2023 00:43:40</publishTime>
+      <publishTime>07/12/2023 11:15:47</publishTime>
     </File>
     <File Include="Lunchsoft.Server.dll">
-      <publishTime>07/12/2023 00:43:40</publishTime>
+      <publishTime>07/12/2023 11:15:46</publishTime>
     </File>
     <File Include="Lunchsoft.Server.exe">
-      <publishTime>07/12/2023 00:43:40</publishTime>
+      <publishTime>07/12/2023 11:15:47</publishTime>
     </File>
     <File Include="Lunchsoft.Server.pdb">
-      <publishTime>07/12/2023 00:43:40</publishTime>
+      <publishTime>07/12/2023 11:15:46</publishTime>
     </File>
     <File Include="Lunchsoft.Server.runtimeconfig.json">
       <publishTime>07/08/2023 15:57:10</publishTime>
@@ -180,7 +180,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/15/2019 03:54:30</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/12/2023 00:44:01</publishTime>
+      <publishTime>07/12/2023 11:16:12</publishTime>
     </File>
     <File Include="wwwroot/css/app.css">
       <publishTime>07/11/2023 23:26:15</publishTime>
@@ -270,10 +270,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/27/2023 19:12:05</publishTime>
     </File>
     <File Include="wwwroot/service-worker-assets.js">
-      <publishTime>07/12/2023 00:44:00</publishTime>
+      <publishTime>07/12/2023 11:16:12</publishTime>
     </File>
     <File Include="wwwroot/service-worker.js">
-      <publishTime>07/12/2023 00:44:00</publishTime>
+      <publishTime>07/12/2023 11:16:12</publishTime>
     </File>
     <File Include="wwwroot/_content/Blazorise.Bootstrap/blazorise.bootstrap.css">
       <publishTime>06/14/2023 04:33:08</publishTime>
@@ -420,13 +420,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/07/2023 08:52:50</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.webassembly.js">
       <publishTime>05/24/2023 15:57:08</publishTime>
@@ -582,16 +582,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/08/2023 15:59:18</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll">
-      <publishTime>07/12/2023 00:43:32</publishTime>
+      <publishTime>07/12/2023 11:15:39</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.pdb.gz">
-      <publishTime>07/12/2023 00:43:33</publishTime>
+      <publishTime>07/12/2023 11:15:39</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Shared.dll">
       <publishTime>07/12/2023 00:43:31</publishTime>
@@ -606,436 +606,436 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 00:43:33</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Specialized.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Specialized.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Specialized.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Annotations.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.Primitives.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.TypeConverter.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.dll.br">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.Primitives.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.Primitives.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Drawing.Primitives.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Formats.Asn1.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Formats.Asn1.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Formats.Asn1.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Expressions.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Expressions.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Expressions.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Queryable.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Queryable.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Queryable.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ObjectModel.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ObjectModel.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ObjectModel.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:58</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll.br">
-      <publishTime>07/12/2023 00:44:00</publishTime>
+      <publishTime>07/12/2023 11:16:12</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Numerics.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Numerics.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Numerics.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Serialization.Primitives.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Serialization.Primitives.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Serialization.Primitives.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Threading.dll">
-      <publishTime>07/12/2023 00:43:51</publishTime>
+      <publishTime>07/12/2023 11:15:57</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Threading.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Threading.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

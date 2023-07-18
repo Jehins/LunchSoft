@@ -44,34 +44,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Blazorise": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.Bootstrap": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.Components": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.Icons.FontAwesome": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.Icons.Material": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.LoadingIndicator": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
-            "Blazorise.Material": {
-              "target": "Package",
-              "version": "[1.2.4, )"
-            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.7, )"

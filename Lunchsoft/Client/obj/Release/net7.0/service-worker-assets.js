@@ -141,7 +141,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-aZkiFM3xHlX\/gJt0oOLQjuA+vYt0ATmSOcBPOdeyw8E=",
+      "hash": "sha256-NCuRPR7sBzAjeSCdQlsg05xaux1f5kGDUARmgvyxYgM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -181,7 +181,7 @@
       "url": "_framework\/Blazorise.Snackbar.dll"
     },
     {
-      "hash": "sha256-7rPDJzN6Grg0pKV7HG7IRPTP8B5XXVjJrtjTX7X1mUs=",
+      "hash": "sha256-DAKHPpZUa84WzjIzgStvkbDTff8kZPJM90R58exqkQY=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
@@ -581,5 +581,5 @@
       "url": "_content\/Blazorise\/vendors\/sha512.js"
     }
   ],
-  "version": "5PBQq\/PQ"
+  "version": "HvJhPLVg"
 };

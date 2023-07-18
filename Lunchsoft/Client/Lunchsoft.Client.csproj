@@ -25,16 +25,36 @@
   <ItemGroup>
     <None Include="Pages\Index.razor" />
     <None Include="Compartido\Product.razor" />
+    <None Include="Pages\Vistas\Bebida.razor" />
+    <None Include="Pages\Vistas\Comida.razor" />
+    <None Include="Pages\Vistas\Reserva.razor" />
+    <None Include="wwwroot\css\bootstrap.css.map" />
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\css\material-plugins.css.map" />
+    <None Include="wwwroot\css\material-plugins.min.css.map" />
+    <None Include="wwwroot\css\material.css.map" />
+    <None Include="wwwroot\css\material.min.css.map" />
+    <None Include="wwwroot\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\js\bootstrap.esm.js" />
+    <None Include="wwwroot\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.js.map" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\js\material.js" />
+    <None Include="wwwroot\js\material.js.map" />
+    <None Include="wwwroot\js\material.min.js" />
+    <None Include="wwwroot\js\material.min.js.map" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazorise" Version="1.2.4" />
-    <PackageReference Include="Blazorise.Bootstrap" Version="1.2.4" />
-    <PackageReference Include="Blazorise.Components" Version="1.2.4" />
-    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.2.4" />
-    <PackageReference Include="Blazorise.Icons.Material" Version="1.2.4" />
-    <PackageReference Include="Blazorise.LoadingIndicator" Version="1.2.4" />
-    <PackageReference Include="Blazorise.Material" Version="1.2.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.7" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />

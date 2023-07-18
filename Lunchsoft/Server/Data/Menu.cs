@@ -9,7 +9,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""INSERT INTO MENU (NAME, PRICE, DESCRIPCION,IMAGEN)VALUE('{modelo.Nombre}', '{modelo.Precio}', '{modelo.Descripcion}', '{modelo.Imagen}')""";
+                string query = $"""INSERT INTO MENU (NAME, PRICE, DESCRIPCION,IMAGEN)VALUES('{modelo.Nombre}', '{modelo.Precio}', '{modelo.Descripcion}', '{modelo.Imagen}')""";
                 DataBase.Execute(query);
                 return true;
             }
@@ -38,8 +38,8 @@ namespace Lunchsoft.Server.Data
                     {
                         Id = resultado.GetInt32(0),
                         Nombre = resultado.GetString(1),
-                        Descripcion = resultado.GetString(2),
-                        Precio = resultado.GetInt32(3),
+                        Precio = resultado.GetInt32(2),
+                        Descripcion = resultado.GetString(3),
                         Imagen = resultado.GetString(4)
                     };
 

@@ -32,16 +32,15 @@
                 while (resultado.Read())
                 {
 
-                    Shared.Models.Empleados modelo = new ()
+                    Shared.Models.Empleados modelo = new()
                     {
                         Id = resultado.GetInt32(0),
                         User = resultado.GetString(1),
                         Name = resultado.GetString(2),
                         Age = resultado.GetInt32(3),
-                        Pass = resultado.GetString(4),
-                        TypeFk = resultado.GetInt32(5)
+                        TypeFk = resultado.GetInt32(4),
+                        Pass = resultado.GetString(5)
                     };
-
                     return modelo;
                 }
 

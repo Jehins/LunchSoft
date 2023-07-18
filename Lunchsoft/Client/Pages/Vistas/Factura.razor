@@ -1,0 +1,299 @@
+﻿@page "/factura"
+@using System.Collections.Generic
+@using System.Linq
+
+<nav class="navbar navbar-gray">
+    <ul>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="h-8 w-8" src="/img/LunchSoft2.png" />
+            </a>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Reporte</a>
+                <a class="dropdown-item" href="#">Cerrar sesión</a>
+            </div>
+        </li>
+
+    </ul>
+    <ul class="navbar-menu">
+        
+        <li><a>Reserva</a></li>
+        <li class="text-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+            </svg>
+        </li>
+        <li><a class="text-blue-600 font-bold">Comida</a></li>
+        <li class="text-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+            </svg>
+        </li>
+        <li><a>Bebida</a></li>
+
+    </ul>
+    <ul>
+        
+    </ul>
+
+</nav>
+<br /><br />
+<div class="flex flex-row justify-center items-center w-full">
+    <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
+
+        <h1 class="fw-bold">Agregar nuevo</h1>
+
+        <div class="w-full mt-5">
+            <label for="first_name" class="block text-sm font-medium text-gray-900">Valor</label>
+            <input @bind="Valor" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  w-full" placeholder="Valor" required>
+        </div>
+
+        <div class="mt-2 w-full">
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
+            <input @bind="PedidoFk" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
+        </div>
+
+        <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
+
+
+    </div>
+</div>
+
+
+
+@code {
+    
+
+    async Task Agregar()
+    {
+        try
+        {
+            if (Valor == "" || PedidoFk == "")
+            {
+                Result = "Por favor, complete todos los campos.";
+            }
+            else
+            {
+                var nuevaFactura = new Lunchsoft.Shared.Models.Factura
+                    {
+                        Valor = int.Parse(Valor),
+                        PedidoFk = int.Parse(PedidoFk),
+                    };
+
+                var resul = await Lunchsoft.Shared.Acceso.Factura.CrearFactura(nuevaFactura);
+
+                if (!resul)
+                {
+                    Result = "No se pudo crear la factura.";
+                    StateHasChanged();
+                    return;
+                }
+
+            }
+        }
+        catch (Exception ex)
+        {
+            Result = "Error al crear el empleado.";
+            Console.WriteLine("ER:" + ex.Message);
+        }
+    }
+
+
+   
+
+    private void GuardarItem()
+    {
+        base.StateHasChanged();
+    }
+
+    private void CancelarEdicionItem()
+    {
+        
+    }
+
+    //public decimal Total => Items.Sum(item => item.Valor);
+
+   
+    string Valor = "";
+    string PedidoFk = "";
+    string Result = "";
+
+    /*
+     *
+     *
+     * @if (itemSeleccionado != null)
+    {
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Editar Informacion</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                     <div class="form-group">
+                        <label>Valor:</label>
+                        <input type="text" class="form-control" @bind="Valor" />
+                    </div>
+                    <div class="form-group">
+                        <label>Pedido:</label>
+                        <input type="text" class="form-control" @bind="PedidoFk" />
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" data-bs-dismiss="modal" @onclick="GuardarItem">Guardar</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" @onclick="CancelarEdicionItem">Cancelar</button>
+            </div>
+        </div>
+    </div>
+        </div>
+    }
+    @if(Items.Count > 0)
+    {
+    <div class="flex flex-row justify-center mt-5">
+    <div class="text-white flex flex-col bg-green-500 h-17 w-56 rounded justify-center items-center">
+
+        <label style="font-weight: bold">Total</label>
+        <label class="-mt-1">@Total</label>
+
+        </div>
+    </div>
+    }
+
+
+
+
+    <div class="p-2 bg-gray-100 rounded mx-64 mt-5">
+
+
+
+    @if(Items.Count > 0)
+        {
+        <div class="relative overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500 ">
+                <thead class="text-xs text-gray-700 uppercase">
+                        <tr>
+                        <th scope="col" class="px-6 py-3">
+                        Valor
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                        Pedido
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                        Acciones
+                    </th>
+                </tr>
+                </thead>
+                    <tbody>
+                    @foreach (var item in Items)
+                        {
+                        <tr class="bg-white rounded">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900">
+                            @item.Valor
+                            </th>
+                            <td class="px-6 py-4">
+                            @item.PedidoFk
+                            </td>
+                            <td class="px-6 py-4">
+                                <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" @onclick="()=>EditarItem(item)">Editar</button>
+                                <button class="btn btn-danger" @onclick="() => EliminarItem(item)">Eliminar</button>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+    }
+        else
+        {
+        <div class="flex p-5 justify-center items-center">
+            <label>No hay pedidos</label>
+    </div>
+     }
+
+     </div>
+    */
+}
+
+<style>
+
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        z-index: 9999;
+    }
+
+    .navbar-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+    }
+
+        .navbar-menu li {
+            list-style: none;
+            margin-right: 20px;
+        }
+
+            .navbar-menu li a {
+                font-size: 14px;
+                color: #666;
+                text-decoration: none;
+            }
+
+                .navbar-menu li a:hover {
+                    color: #333;
+                }
+
+    .btn-register {
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #eee;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #ccc;
+        }
+
+    .btn-login {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-login:hover {
+            background-color: #0056b3;
+        }
+
+    .content {
+        padding-top: 80px;
+    }
+</style>

@@ -16,12 +16,6 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise\1.2.4\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.2.4\buildTransitive\Blazorise.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise.snackbar\1.2.4\buildTransitive\Blazorise.Snackbar.props" Condition="Exists('$(NuGetPackageRoot)blazorise.snackbar\1.2.4\buildTransitive\Blazorise.Snackbar.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise.bootstrap\1.2.4\buildTransitive\Blazorise.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap\1.2.4\buildTransitive\Blazorise.Bootstrap.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise.material\1.2.4\buildTransitive\Blazorise.Material.props" Condition="Exists('$(NuGetPackageRoot)blazorise.material\1.2.4\buildTransitive\Blazorise.Material.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.2.4\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.2.4\buildTransitive\Blazorise.LoadingIndicator.props')" />
-    <Import Project="$(NuGetPackageRoot)blazorise.icons.material\1.2.4\buildTransitive\Blazorise.Icons.Material.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.material\1.2.4\buildTransitive\Blazorise.Icons.Material.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Jehins\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>

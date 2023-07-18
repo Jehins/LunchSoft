@@ -949,19 +949,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-uYgHmAOtr9gVgnAPW8krtB5B+OYU6fjYBwaqvkGH\/EI=",
+      "hash": "sha256-CcYQ\/ElfEFLYoFWSUy8CsCGVkhjHywNizGb6soWs2bs=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-1ec1Sa1d61DPJdM7kSS1GC6p5VvLhg9rjyWshv7MHGs=",
+      "hash": "sha256-LmpFL8c4ol9OGoRr6mcPhtJhcH7JaEbcpP9\/Ger0Dog=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-ddh+IE9PwG2kQwDKQY0mLcZ8bI53Y85cSn4DRdSezXc=",
+      "hash": "sha256-7rPDJzN6Grg0pKV7HG7IRPTP8B5XXVjJrtjTX7X1mUs=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-zgVpPRmUg9E6sJbnX\/NExJ08NLhzuwRF9ULckW8NDuY=",
+      "hash": "sha256-sfyDYDvRNBNyps6xEADxS+wH4lN\/4+d2AJPVkjXR5hM=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -969,7 +969,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-hPdUXRyhJmY2xJug6spXxiY7KT+Ed\/AsRXElvqbluhY=",
+      "hash": "sha256-oTjvKclR2vc\/MeXDT8+R5\/EWlzl5lbVJ+TWiCyTRNyE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1165,5 +1165,5 @@
       "url": "_content\/Blazorise.Icons.Material\/blazorise.icons.material.css"
     }
   ],
-  "version": "b5CWYkKn"
+  "version": "iqayADIA"
 };

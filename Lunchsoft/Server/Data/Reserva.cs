@@ -10,7 +10,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $""" INSERT INTO `RESERVA` (`NUMERO`, `HORA`, `IMAGEN`, `EMPLEADO_FK`) VALUES ('{modelo.Numero}','{modelo.Hora:yyyy-MM-dd HH:mm}', '{modelo.Imagen}', '{modelo.EmpleadoFk}') """;
+                string query = $""" INSERT INTO `RESERVA` (`NUMERO`, `IMAGEN`, `HORA`, `EMPLEADO_FK`) VALUES ('{modelo.Numero}', '{modelo.Imagen}','{modelo.Hora:yyyy-MM-dd HH:mm}','{modelo.EmpleadoFk}') """;
                 DataBase.Execute(query);
                 return true;
             }
@@ -39,8 +39,8 @@ namespace Lunchsoft.Server.Data
                     {
                         Id = resultado.GetInt32(0),
                         Numero = resultado.GetInt32(1),
-                        Hora = resultado.GetDateTime(2),
-                        Imagen = resultado.GetString(3),
+                        Imagen = resultado.GetString(2),
+                        Hora = resultado.GetDateTime(3),
                         EmpleadoFk = resultado.GetInt32(4)
                     };
 
@@ -60,7 +60,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""UPDATE RESERVA SET NUMERO = '{modelo.Numero}', HORA = '{modelo.Hora}', IMAGEN = '{modelo.Imagen}', EMPLEADO_FK = '{modelo.EmpleadoFk}' WHERE ID = '{modelo.Id}'""";
+                string query = $"""UPDATE RESERVA SET NUMERO = '{modelo.Numero}', IMAGEN = '{modelo.Imagen}', HORA = '{modelo.Hora}', EMPLEADO_FK = '{modelo.EmpleadoFk}' WHERE ID = '{modelo.Id}'""";
 
                 DataBase.Execute(query);
                 return true;

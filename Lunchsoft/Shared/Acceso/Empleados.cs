@@ -30,7 +30,6 @@ namespace Lunchsoft.Shared.Acceso
         public static async Task<Models.Empleados>  ObtenerEmpleado(string user, string pass)
         {
             var url = $"{Url.Dominio}empleados/Get";
-            Console.WriteLine(url);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())

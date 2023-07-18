@@ -4,7 +4,7 @@
 
 @code {
     
-    int TypeFk = 3;
+    int TypeFk = 0;
 
     protected override void OnInitialized() 
     {
@@ -14,11 +14,11 @@
         }
         else if (Sesion.Empleado.TypeFk == 2)
         {
-            Manager.NavigateTo("/Mesas");
+            Manager.NavigateTo("/Bienvenido");
         }
         else if (Sesion.Empleado.TypeFk == 3)
         {
-            Manager.NavigateTo("/Factura");
+            Manager.NavigateTo("/factura");
         }
     }
     

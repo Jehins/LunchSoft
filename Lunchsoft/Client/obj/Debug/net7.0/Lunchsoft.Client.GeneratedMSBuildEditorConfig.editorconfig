@@ -32,48 +32,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Example.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhhbXBsZS5yYXpvcg==
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Cocina.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29jaW5hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Bebidas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxCZWJpZGFzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Comida.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxDb21pZGEucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Factura.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxGYWN0dXJhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Informacion.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxJbmZvcm1hY2lvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Jefe.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxKZWZlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Prueba.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxQcnVlYmEucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxSZWdpc3Rlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Jefe/Reservas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZVxSZXNlcnZhcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Reserva.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Sign.razor]
@@ -94,6 +66,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Viejos/Register1.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmllam9zXFJlZ2lzdGVyMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Bebida.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXEJlYmlkYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Bebidas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXEJlYmlkYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Bienvenido.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXEJpZW52ZW5pZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Comida.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXENvbWlkYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Comidas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXENvbWlkYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Factura.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXEZhY3R1cmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/Pages/Vistas/Reserva.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzXFJlc2VydmEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jehins/OneDrive/Escritorio/ProyectoFinal/Lunchsoft/Lunchsoft/Client/_Imports.razor]

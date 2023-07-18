@@ -7,10 +7,10 @@ namespace Lunchsoft.Server.Controllers
     public class ReservaController : Controller
     {
         [HttpPost("crear")]
-        public ActionResult Crear([FromBody] Reserva modelo)
+        public ActionResult Crear([FromBody] Shared.Models.Reserva modelo)
         {
             if (modelo.Numero <= 0)
-                return BadRequest("Esta vacio");
+                return BadRequest("el numero es incorrecto o vacio");
 
             if (modelo.Hora.Date == DateTime.MinValue.Date || modelo.Hora.Hour == 0 && modelo.Hora.Minute == 0)
             {
