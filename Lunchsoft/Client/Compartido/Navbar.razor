@@ -3,19 +3,19 @@
 <nav class="navbar navbar-gray">
     <ul>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link  " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="h-8 w-8" src="/img/LunchSoft2.png" />
             </a>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Reporte</a>
-                <a class="dropdown-item" href="#">Cerrar sesión</a>
+                <a class="dropdown-item" @onclick="Reporte">Reporte</a>
+                <a class="dropdown-item"@onclick="Cerrar">Cerrar sesión</a>
             </div>
         </li>
 
     </ul>
 
     <ul class="navbar-menu">
-        <li><a @onclick="Bienvenido">Bienvenido</a></li>
+        <li><a @onclick="Bienvenido">Home</a></li>
         <li class="text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
@@ -27,7 +27,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
             </svg>
         </li>
-        <li><a class="text-blue-600 font-bold"  @onclick="Comida">Comida</a></li>
+        <li><a class="text-blue-600 font-bold"  @onclick="Comida">Menu</a></li>
         <li class="text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
@@ -45,30 +45,30 @@
 @code{
 
 
-	void Bienvenido()
-	{
-		NavigationManager.NavigateTo("/Bienvenido");
-	}
-	void Comida()
-	{
-		NavigationManager.NavigateTo("/Comida");
-	}
-	void Bebida()
-	{
-		NavigationManager.NavigateTo("/Bebida");
-	}
-	void Reserva()
-	{
-		NavigationManager.NavigateTo("/Reserva");
-	}
-	void Cerrar()
-	{
-		NavigationManager.NavigateTo("/login");
-	}
-	void Agregar()
-	{
-		NavigationManager.NavigateTo("/Comidas");
-	}
+    void Bienvenido()
+    {
+        NavigationManager.NavigateTo("/Bienvenido");
+    }
+    void Comida()
+    {
+        NavigationManager.NavigateTo("/Comida");
+    }
+    void Bebida()
+    {
+        NavigationManager.NavigateTo("/Bebida");
+    }
+    void Reserva()
+    {
+        NavigationManager.NavigateTo("/Reserva");
+    }
+    void Cerrar()
+    {
+
+    }
+    void Reporte()
+    {
+        
+    }
 }
 
 <style>

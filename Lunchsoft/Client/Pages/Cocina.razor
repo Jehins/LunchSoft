@@ -4,35 +4,176 @@
 
 
 <nav class="navbar navbar-gray">
-    <a class="navbar-logo" href="#">
-        <img class="h-10 w-10" src="/img/LunchSoft.png" />
-    </a>
+    <ul>
+        <li class="nav-item dropdown">
+            <a class="nav-link  " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="h-8 w-8" src="/img/LunchSoft2.png" />
+            </a>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" @onclick="Reporte">Reporte</a>
+                <a class="dropdown-item" @onclick="Cerrar">Cerrar sesión</a>
+            </div>
+        </li>
+    </ul>
 
     <ul class="navbar-menu">
        
 
     </ul>
     <ul>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="~/img/LunchSoft2.png" />
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Reporte</a>
-                <a class="dropdown-item" href="#">Cerrar sesión</a>
-            </div>
-        </li>
+        
     </ul>
 
 </nav>
 
+<div class="flex flex-row justify-center items-center w-full">
+    <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
+
+        <h1 class="fw-bold">Agregar nuevo</h1>
+
+        <div class="w-full mt-5">
+            <label for="first_name" class="block text-sm font-medium text-gray-900">Valor</label>
+            <input @bind="Hora" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  w-full" placeholder="Valor" required>
+        </div>
+
+        <div class="mt-2 w-full">
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
+            <input @bind="ReservaFk" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
+        </div>
+        <h5>@Result</h5>
+
+        <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
+
+
+    </div>
+</div>
+
 
 @code{
-    
+    void Reporte()
+    {
+
+    }
+    void Cerrar()
+    {
+
+    }
+
+    string Hora = "";
+    string ReservaFk = "";
+    string Result = "";
+
+    async Task Agregar()
+    {
+        try
+        {
+            if(Hora == "" || ReservaFk == "")
+            {
+                Result = "Completa todos los campos";
+            }
+            else
+            {
+                var nuevoPedido = new Lunchsoft.Shared.Models.Pedido
+                    {
+                        Hora = DateTime.Parse(Hora),
+                        ReservaFk = int.Parse(ReservaFk),
+                    };
+
+                var resul = await Lunchsoft.Shared.Acceso.Pedidos.CrearPedido(nuevoPedido);
+
+                if (!resul)
+                {
+                    Result = "No se pudo crear la factura.";
+                    StateHasChanged();
+                    return;
+                }
+            }
+        }
+        catch
+        {
+            Result = "Error al crear el pedido";
+        }
+    }
 }
 <style>
 
-    body{
-        backgound-color: #f2f2f2;
+    
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        z-index: 9999;
+    }
+
+    .navbar-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+    }
+
+        .navbar-menu li {
+            list-style: none;
+            margin-right: 20px;
+        }
+
+            .navbar-menu li a {
+                font-size: 14px;
+                color: #666;
+                text-decoration: none;
+            }
+
+                .navbar-menu li a:hover {
+                    color: #333;
+                }
+
+    .btn-register {
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #eee;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #ccc;
+        }
+
+    .btn-login {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-login:hover {
+            background-color: #0056b3;
+        }
+
+    .content {
+        padding-top: 80px;
     }
 </style>

@@ -50,10 +50,6 @@ namespace Lunchsoft.Shared.Acceso
             }
         }
 
-
-
-
-
         public async Task<bool> ActualizarEmpleado(Models.Empleados empleadoActualizado)
         {
             var url = $"{Url.Dominio}empleados/update";

@@ -2,6 +2,7 @@
 @using System.Collections.Generic
 @using System.Linq
 
+
 <nav class="navbar navbar-gray">
     <ul>
         <li class="nav-item dropdown">
@@ -16,27 +17,13 @@
 
     </ul>
     <ul class="navbar-menu">
-        
-        <li><a>Reserva</a></li>
-        <li class="text-gray-300">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-            </svg>
-        </li>
-        <li><a class="text-blue-600 font-bold">Comida</a></li>
-        <li class="text-gray-300">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-            </svg>
-        </li>
-        <li><a>Bebida</a></li>
-
     </ul>
     <ul>
-        
     </ul>
 
 </nav>
+
+
 <br /><br />
 <div class="flex flex-row justify-center items-center w-full">
     <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
@@ -111,109 +98,12 @@
         
     }
 
-    //public decimal Total => Items.Sum(item => item.Valor);
 
    
     string Valor = "";
     string PedidoFk = "";
     string Result = "";
 
-    /*
-     *
-     *
-     * @if (itemSeleccionado != null)
-    {
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Editar Informacion</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                     <div class="form-group">
-                        <label>Valor:</label>
-                        <input type="text" class="form-control" @bind="Valor" />
-                    </div>
-                    <div class="form-group">
-                        <label>Pedido:</label>
-                        <input type="text" class="form-control" @bind="PedidoFk" />
-                </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-success" data-bs-dismiss="modal" @onclick="GuardarItem">Guardar</button>
-                    <button class="btn btn-secondary" data-bs-dismiss="modal" @onclick="CancelarEdicionItem">Cancelar</button>
-            </div>
-        </div>
-    </div>
-        </div>
-    }
-    @if(Items.Count > 0)
-    {
-    <div class="flex flex-row justify-center mt-5">
-    <div class="text-white flex flex-col bg-green-500 h-17 w-56 rounded justify-center items-center">
-
-        <label style="font-weight: bold">Total</label>
-        <label class="-mt-1">@Total</label>
-
-        </div>
-    </div>
-    }
-
-
-
-
-    <div class="p-2 bg-gray-100 rounded mx-64 mt-5">
-
-
-
-    @if(Items.Count > 0)
-        {
-        <div class="relative overflow-x-auto">
-            <table class="w-full text-sm text-left text-gray-500 ">
-                <thead class="text-xs text-gray-700 uppercase">
-                        <tr>
-                        <th scope="col" class="px-6 py-3">
-                        Valor
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                        Pedido
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                        Acciones
-                    </th>
-                </tr>
-                </thead>
-                    <tbody>
-                    @foreach (var item in Items)
-                        {
-                        <tr class="bg-white rounded">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900">
-                            @item.Valor
-                            </th>
-                            <td class="px-6 py-4">
-                            @item.PedidoFk
-                            </td>
-                            <td class="px-6 py-4">
-                                <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" @onclick="()=>EditarItem(item)">Editar</button>
-                                <button class="btn btn-danger" @onclick="() => EliminarItem(item)">Eliminar</button>
-                        </td>
-                    </tr>
-
-                }
-            </tbody>
-        </table>
-    </div>
-    }
-        else
-        {
-        <div class="flex p-5 justify-center items-center">
-            <label>No hay pedidos</label>
-    </div>
-     }
-
-     </div>
-    */
 }
 
 <style>
