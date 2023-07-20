@@ -233,6 +233,10 @@
       "PackagePath": "staticwebassets\\manifest.json"
     },
     {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\sql2.sql",
+      "PackagePath": "staticwebassets\\sql2.sql"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lunchsoft.Client.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

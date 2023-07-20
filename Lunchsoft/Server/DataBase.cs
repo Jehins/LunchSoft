@@ -8,7 +8,7 @@ namespace Lunchsoft.Server
     {
         public static MySqlConnection GetConnection()
         {
-            MySql.Data.MySqlClient.MySqlConnection conexion = new(@"Server=lunchsoft.mysql.database.azure.com; UserID = jehins;Password=Lunchsoft2023;Database=datalunch;");
+            MySql.Data.MySqlClient.MySqlConnection conexion = new(@"Server=db4free.net; UserID = grupo3;Password=LunchSoft123;Database=lunchsoftdata;");
             conexion.Open();
             return conexion;
         }

@@ -6,7 +6,7 @@
 <nav class="navbar navbar-gray">
     <ul>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="h-8 w-8" src="/img/LunchSoft2.png" />
             </a>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
@@ -49,7 +49,7 @@
 
 
 @code {
-    
+
 
     async Task Agregar()
     {
@@ -72,10 +72,14 @@
                 if (!resul)
                 {
                     Result = "No se pudo crear la factura.";
-                    StateHasChanged();
+
                     return;
                 }
-
+                else
+                {
+                    Result = "Se creo la factura con exito.";
+                }
+                StateHasChanged();
             }
         }
         catch (Exception ex)

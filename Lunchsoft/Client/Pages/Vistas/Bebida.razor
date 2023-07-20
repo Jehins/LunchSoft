@@ -103,8 +103,11 @@
                 if (!resul)
                 {
                     Result = "No se pudo crear el empleado.";
-                    StateHasChanged();
-                    return;
+
+                }
+                else
+                {
+                    Result = "Bebida creada con exito";
                 }
             }
         }

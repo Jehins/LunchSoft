@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "43ryZTmLspvDpwlML3GNuQiB7oLdMoZC3Fs+bq7X7nc=",
+  "Hash": "5PEjJyrxUTfZMjSQWnxrjChb5697yfMwobWRQ8hIoZY=",
   "Source": "Lunchsoft.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7954,6 +7954,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\sql2.sql",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sql2.sql",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sql2.sql"
     }
   ]
 }

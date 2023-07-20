@@ -64,6 +64,7 @@ namespace Lunchsoft.Server.Controllers
 
             if (modelo.Numero <= 0)
                 return BadRequest("Esta vacio");
+
             if (modelo.EmpleadoFk <= 0)
             {
                 return BadRequest("El empleado es incorrecto");

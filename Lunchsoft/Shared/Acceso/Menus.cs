@@ -30,24 +30,43 @@ namespace Lunchsoft.Shared.Acceso
             }
         }
 
-        public async Task<List<Shared.Models.Menus>> ObtenerMenu()
+        public static async Task<List<Models.Menus>> ObtenerMenu(int codigo)
         {
-            var url = $"{Url.Dominio}menu/get";
+            var url = $"{Url.Dominio}menu/Get";
 
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             using (var httpClient = new HttpClient())
             {
+                httpClient.DefaultRequestHeaders.Add("codigo", codigo.ToString());
                 var response = await httpClient.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
                     var Content = await response.Content.ReadAsStringAsync();
-                    var menus = JsonSerializer.Deserialize<List<Shared.Models.Menus>>(Content, options);
+                    var menus = JsonSerializer.Deserialize<List<Models.Menus>>(Content, options);
                     return menus;
                 }
                 return new();
             }
         }
-        public static async Task<bool> ActualizarMenu(Shared.Models.Menus menuActualizado)
+
+        public static async Task<List<Models.Menus>> Obtener()
+        {
+            var url = $"{Url.Dominio}menu/getMenu";
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("HeaderName", "HeaderValue");
+                var response = await httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var Content = await response.Content.ReadAsStringAsync();
+                    var menus = JsonSerializer.Deserialize<List<Models.Menus>>(Content, options);
+                    return menus;
+                }
+                return new();
+            }
+        }
+        public static async Task<bool> ActualizarMenu(Models.Menus menuActualizado)
         {
             var url = $"{Url.Dominio}menu/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };

@@ -217,6 +217,10 @@
       "url": "manifest.json"
     },
     {
+      "hash": "sha256-7xthBQGjI5+yVlC7hie4fZuARDCdERmyH4tLtwb72Ek=",
+      "url": "sql2.sql"
+    },
+    {
       "hash": "sha256-3H1\/2dJ6LCSFrDwMxcIF9c89g7e2WDms+gUxX9yXsCE=",
       "url": "_framework\/Microsoft.AspNetCore.Authorization.dll"
     },
@@ -1013,19 +1017,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-2DfOWVioWEBqxTwkMWdFosHUKKAvD\/nqu8u23YGrgkk=",
+      "hash": "sha256-XP\/rlVFV1rxldjXGgh55ZX7QEBJOy8AAqoUqxepeRlQ=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-YJ6sdHuwABIHTN9GwjShekVqxh1gMajH4cDSmsJcfAU=",
+      "hash": "sha256-uWdNre\/XhB6bcIzrV5WqoTcU\/hqFgIK8k2aPzR1iRhM=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-U1e4Hoe5BjWDqer+9AJa9HQMgaOSGNM7iPLjUUr1PB8=",
+      "hash": "sha256-6C+FTxzI47a9l50M++J9onVAwzRzQRF437FKpEixVmU=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-Pq+9i11idX+zL3LbJ6uSISyjt1LzNO6bRQzSrxNP2Uo=",
+      "hash": "sha256-DRlo0uNIfoyQLYDVpviJAsOj9uQQZ663JjLOUQ\/MEq0=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -1033,9 +1037,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-u0jhDJrmK4t0fuJI6A+iHwRJLlZIoiNkOpIdx4YihRc=",
+      "hash": "sha256-bxrkFRF9B6HpG26j\/yh0ic584bDmyFqBozxD2AEVwdk=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "+v0Vm3D3"
+  "version": "VVA4P8LA"
 };

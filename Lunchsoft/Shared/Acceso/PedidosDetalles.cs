@@ -10,7 +10,7 @@ namespace Lunchsoft.Shared.Acceso
 {
     public class PedidosDetalles
     {
-        public async Task<bool> CrearPedidoD(Shared.Models.PedidosDetalles nuevoPedido)
+        public static async Task<bool> CrearPedidoD(Shared.Models.PedidosDetalles nuevoPedido)
         {
             var url = $"{Url.Dominio}pedidodetalle/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -30,7 +30,7 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Shared.Models.PedidosDetalles>> ObtenerPedidoD()
+        public static async Task<List<Shared.Models.PedidosDetalles>> ObtenerPedidoD()
         {
             var url = $"{Url.Dominio}pedidodetalle/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -51,7 +51,7 @@ namespace Lunchsoft.Shared.Acceso
 
 
 
-        public async Task<bool> ActualizarPedidosD(Shared.Models.PedidosDetalles ActualizarPedido)
+        public static async Task<bool> ActualizarPedidosD(Shared.Models.PedidosDetalles ActualizarPedido)
         {
             var url = $"{Url.Dominio}pedidodetalle/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -74,7 +74,7 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<bool> EliminarPedidoD(int Id)
+        public static async Task<bool> EliminarPedidoD(int Id)
         {
             var url = $"{Url.Dominio}pedidodetalle/delete?id={Id}";
 

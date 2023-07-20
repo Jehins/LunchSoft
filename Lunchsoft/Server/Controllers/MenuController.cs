@@ -47,6 +47,21 @@ namespace Lunchsoft.Server.Controllers
                 return BadRequest("Se encontró algun error");
             }
         }
+        [HttpGet("getMenu")]
+        public ActionResult Get()
+        {
+
+            var menu = Data.Menu.GetMenus();
+
+            if (menu != null)
+            {
+                return Ok(menu);
+            }
+            else
+            {
+                return BadRequest("El menu es incorrecto");
+            }
+        }
 
         [HttpPut("Update")]
         public ActionResult Update([FromBody] Menus modelo)

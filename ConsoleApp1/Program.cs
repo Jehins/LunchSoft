@@ -1,0 +1,2 @@
+﻿var edad = "";
+edad = "Hola";
