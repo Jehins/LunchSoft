@@ -9,7 +9,7 @@
         {
             try
             {
-                string query = $"""INSERT INTO PEDIDOS (`HORA`, `EMPLEADO_FK`, MENU_FK) VALUES ('{modelo.Hora:yyyy-MM-dd HH:mm}','{modelo.ReservaFk}') """;
+                string query = $"""INSERT INTO PEDIDOS (`DESCRIPCION`, RESERVA_FK) VALUES ('{modelo.Descripcion}','{modelo.ReservaFk}') """;
                 DataBase.Execute(query);
                 return true;
             }
@@ -21,12 +21,12 @@
         /// <summary>
         /// Obtiene todos los pedidos de un cliente
         /// </summary>
-        public static List<Shared.Models.Pedido> GetAll(int id)
+        public static List<Shared.Models.Pedido> GetAll()
         {
             try
             {
 
-                string query = $"""SELECT * FROM PEDIDOS WHERE USUARIO_FK = {id} """;
+                string query = $"""SELECT * FROM PEDIDOS """;
 
                 MySql.Data.MySqlClient.MySqlConnection conexion = DataBase.GetConnection();
 
@@ -43,7 +43,7 @@
                     Shared.Models.Pedido modelo = new ()
                     {
                         Id = resultado.GetInt32(0),
-                        Hora = resultado.GetDateTime(1),
+                        Descripcion = resultado.GetString(1),
                         ReservaFk = resultado.GetInt32(2)
                     };
 
@@ -59,6 +59,33 @@
             }
         }
 
+        public static List<Shared.Models.Pedido>? GetPedido()
+        {
+            try
+            {
+                string query = $"""SELECT * FROM PEDIDOS""";
+                var conexion = DataBase.GetConnection();
+                MySql.Data.MySqlClient.MySqlCommand comando = new(query, conexion);
+                var resultado = comando.ExecuteReader();
 
+                List<Shared.Models.Pedido> pedList = new();
+
+                while (resultado.Read())
+                {
+                    Shared.Models.Pedido modelo = new()
+                    {
+                        Id = resultado.GetInt32(0),
+                        Descripcion = resultado.GetString(1),
+                        ReservaFk = resultado.GetInt32(2)
+                    };
+                    pedList.Add(modelo);
+                }
+                return pedList;
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

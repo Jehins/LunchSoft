@@ -117,12 +117,20 @@
       "PackagePath": "staticwebassets\\img\\ae.png"
     },
     {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\borrar.png",
+      "PackagePath": "staticwebassets\\img\\borrar.png"
+    },
+    {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
       "PackagePath": "staticwebassets\\img\\burger.png"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
       "PackagePath": "staticwebassets\\img\\descarga1.png"
+    },
+    {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\editar.png",
+      "PackagePath": "staticwebassets\\img\\editar.png"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\epico.png",

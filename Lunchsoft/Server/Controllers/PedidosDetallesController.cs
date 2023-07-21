@@ -51,6 +51,20 @@ namespace Lunchsoft.Server.Controllers
                 return BadRequest("Se encontró algun error");
             }
         }
+        [HttpGet("GetPedDet")]
+        public ActionResult Get()
+        {
+            var PediDeta = Data.PedidosDetalles.GetPedDet();
+
+            if (PediDeta != null)
+            {
+                return Ok(PediDeta);
+            }
+            else
+            {
+                return BadRequest("Se encontró algun error");
+            }
+        }
 
         [HttpPut("Update")]
         public ActionResult Update([FromBody] PedidosDetalles modelo)

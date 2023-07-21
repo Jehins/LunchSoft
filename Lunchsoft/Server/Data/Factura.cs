@@ -49,6 +49,35 @@
                 return null;
             }
         }
+        public static List<Shared.Models.Factura>? GetFactura()
+        {
+            try
+            {
+                string query = $"""SELECT * FROM FACTURA""";
+                var conexion = DataBase.GetConnection();
+                MySql.Data.MySqlClient.MySqlCommand comando = new(query, conexion);
+                var resultado = comando.ExecuteReader();
+
+                List<Shared.Models.Factura> facturaList = new();
+
+                while (resultado.Read())
+                {
+                    Shared.Models.Factura modelo = new()
+                    {
+                        Id = resultado.GetInt32(0),
+                        Valor = resultado.GetInt32(1),
+                        PedidoFk = resultado.GetInt32(2)
+
+                    };
+                    facturaList.Add(modelo);
+                }
+                return facturaList;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public static bool Update(Shared.Models.Factura modelo)
         {
             try

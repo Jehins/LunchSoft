@@ -15,7 +15,6 @@
             </div>
         </li>
     </ul>
-
     <ul class="navbar-menu">
        
 
@@ -26,26 +25,21 @@
 
 </nav>
 
-<div class="flex flex-row justify-center items-center w-full">
+<div class="flex flex-row justify-center items-center w-full mt-5">
     <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
-
-        <h1 class="fw-bold">Agregar nuevo</h1>
-
+        <strong>
+            Agregar nuevo
+        </strong>
         <div class="w-full mt-5">
             <label for="first_name" class="block text-sm font-medium text-gray-900">Descripcion</label>
             <input @bind="Descripcion" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  w-full" placeholder="Descripcion" required>
         </div>
 
         <div class="mt-2 w-full">
-            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Menu</label>
-            <input @bind="MenuFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Menu" required>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Reserva</label>
+            <input @bind="ReservaFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Reserva" required>
         </div>
-        <div class="mt-2 w-full">
-            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
-            <input @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
-        </div>
-
-        <h5>@Result</h5>
+        <h6>@Result</h6>
 
         <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
 
@@ -53,6 +47,33 @@
     </div>
 </div>
 
+
+<div class="Muestra border border-primary shadow-lg p-3 mb-2 bg-body-tertiary rounded mt-5">
+    <div class="menu-list-container">
+        @if (Pedidos != null && Pedidos.Any())
+        {
+            @foreach (var Pedido in Pedidos)
+            {
+                <div class="menu-item">
+                    <div class="menu-item-nombre">@Pedido.Descripcion</div>
+                    <div class="menu-item-nombre">@Pedido.ReservaFk</div>
+                    <div class="menu-item-buttons">
+                    </div>
+                </div>
+            }
+            @if (!string.IsNullOrEmpty(muestra))
+            {
+                <div class="muestra-div">
+                    <h5>@muestra</h5>
+                </div>
+            }
+        }
+        else
+        {
+            <div>No se han encontrado pedidos.</div>
+        }
+    </div>
+</div>
 
 
 @code{
@@ -66,38 +87,36 @@
     }
 
     string Descripcion = "";
-    string MenuFk = "";
-    string PedidoFk = "";
+    string ReservaFk = "";
     string Result = "";
+    string muestra = "";
 
     async Task Agregar()
     {
         try
         {
-            if(Descripcion == "" || MenuFk == "" || PedidoFk == "")
+            if(Descripcion == "" || ReservaFk == "")
             {
                 Result = "Completa todos los campos";
+                StateHasChanged();
             }
             else
             {
-                var nuevoPedido = new Lunchsoft.Shared.Models.PedidosDetalles
+                var nuevoPedido = new Lunchsoft.Shared.Models.Pedido
                     {
                         Descripcion = Descripcion,
-                        MenuFk = int.Parse(MenuFk),
-                        PedidoFk = int.Parse(PedidoFk)
+                        ReservaFk = int.Parse(ReservaFk)
                     };
 
-                var resul = await Lunchsoft.Shared.Acceso.PedidosDetalles.CrearPedidoD(nuevoPedido);
+                var resul = await Lunchsoft.Shared.Acceso.Pedidos.CrearPedido(nuevoPedido);
 
-                if (!resul)
+                if (resul)
                 {
-                    Result = "No se pudo crear la factura.";
-
-                    return;
+                    Result = "Creado con exito.";
                 }
                 else
                 {
-                    Result = "Creado con exito.";
+                    Result = "No se pudo crear la factura.";
                 }
                 StateHasChanged();
             }
@@ -108,6 +127,13 @@
         }
     }
 
+
+    public List<Shared.Models.Pedido> Pedidos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Pedidos = await Shared.Acceso.Pedidos.Obtener();
+    }
 }
 <style>
 
@@ -187,7 +213,57 @@
             background-color: #0056b3;
         }
 
+    .Muestra {
+        block-size: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
     .content {
         padding-top: 80px;
+    }
+
+    .menu-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .menu-item {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .menu-item-nombre {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .menu-item-precio {
+        font-size: 18px;
+        color: #007bff;
+    }
+
+    .menu-item-descripcion {
+        font-size: 14px;
+    }
+
+    .menu-item-buttons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .menu-item-icon {
+        width: 45px;
+        height: 45px;
     }
 </style>

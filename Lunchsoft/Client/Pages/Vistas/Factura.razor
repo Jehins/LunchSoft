@@ -25,7 +25,7 @@
 
 
 <br /><br />
-<div class="flex flex-row justify-center items-center w-full">
+<div class="flex flex-row justify-center items-center w-full mt-5">
     <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
 
         <h1 class="fw-bold">Agregar nuevo</h1>
@@ -37,7 +37,7 @@
 
         <div class="mt-2 w-full">
             <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
-            <input @bind="PedidoFk" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
+            <input @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
         </div>
 
         <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
@@ -46,11 +46,40 @@
     </div>
 </div>
 
-
+<div class="Muestra border border-primary shadow-lg p-3 mb-2 bg-body-tertiary rounded mt-5">
+    <div class="menu-list-container">
+        @if (facturas != null && facturas.Any())
+        {
+            @foreach (var factura in facturas)
+            {
+                <tr class="bg-white rounded">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900">
+                        @factura.Valor
+                    </th>
+                    <td class="px-6 py-4">
+                        @factura.PedidoFk
+                    </td>
+                    <td class="px-6 py-4">
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => Eliminar(factura.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+            @if (!string.IsNullOrEmpty(muestra))
+            {
+                <div class="muestra-div">
+                    <h5>@muestra</h5>
+                </div>
+            }
+        }
+        else
+        {
+            <div>No se encontraron elementos en la factura.</div>
+        }
+    </div>
+</div>
 
 @code {
-
-
     async Task Agregar()
     {
         try
@@ -61,13 +90,13 @@
             }
             else
             {
-                var nuevaFactura = new Lunchsoft.Shared.Models.Factura
+                var nuevaFactura = new Shared.Models.Factura
                     {
                         Valor = int.Parse(Valor),
                         PedidoFk = int.Parse(PedidoFk),
                     };
 
-                var resul = await Lunchsoft.Shared.Acceso.Factura.CrearFactura(nuevaFactura);
+                var resul = await Shared.Acceso.Factura.CrearFactura(nuevaFactura);
 
                 if (!resul)
                 {
@@ -89,24 +118,32 @@
         }
     }
 
+    public List<Shared.Models.Factura> facturas;
 
-   
-
-    private void GuardarItem()
+    protected override async Task OnInitializedAsync()
     {
-        base.StateHasChanged();
-    }
-
-    private void CancelarEdicionItem()
-    {
-        
+        facturas = await Shared.Acceso.Factura.ObtenerF();
     }
 
 
-   
+    async Task Eliminar(int facturaid)
+    {
+        var result = await Shared.Acceso.Menus.EliminarMenu(facturaid);
+        if (result)
+        {
+            muestra = "Se eliminó correctamente";
+        }
+        else
+        {
+            muestra = "No se pudo eliminar";
+        }
+        StateHasChanged();
+    }
+
     string Valor = "";
     string PedidoFk = "";
     string Result = "";
+    string muestra = "";
 
 }
 
@@ -189,5 +226,48 @@
 
     .content {
         padding-top: 80px;
+    }
+
+    .menu-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .menu-item {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .menu-item-nombre {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .menu-item-precio {
+        font-size: 18px;
+        color: #007bff;
+    }
+
+    .menu-item-descripcion {
+        font-size: 14px;
+    }
+
+    .menu-item-buttons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .menu-item-icon {
+        width: 45px;
+        height: 45px;
     }
 </style>

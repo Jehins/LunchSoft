@@ -47,7 +47,23 @@ namespace Lunchsoft.Shared.Acceso
                 return new();
             }
         }
-
+        public static async Task<List<Models.PedidosDetalles>> ObtenerDetalle()
+        {
+            var url = $"{Url.Dominio}pedidodetalle/GetPedDet";
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("HeaderName", "HeaderValue");
+                var response = await httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var Content = await response.Content.ReadAsStringAsync();
+                    var pedDeta = JsonSerializer.Deserialize<List<Models.PedidosDetalles>>(Content, options);
+                    return pedDeta;
+                }
+                return new();
+            }
+        }
 
 
 

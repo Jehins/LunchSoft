@@ -14,7 +14,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<bool> CrearPedido(Shared.Models.Pedido nuevoPedido)
         {
-            var url = $"{Url.Dominio}pedido/crear";
+            var url = $"{Url.Dominio}pedidos/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -34,7 +34,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<List<Shared.Models.Pedido>> ObtenerPedido()
         {
-            var url = $"{Url.Dominio}pedido/Get";
+            var url = $"{Url.Dominio}pedidos/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -49,46 +49,22 @@ namespace Lunchsoft.Shared.Acceso
                 return new();
             }
         }
-
-
-
-
-        public static async Task<bool> ActualizarEmpleado(Shared.Models.Pedido ActualizarPedido)
+        public static async Task<List<Models.Pedido>> Obtener()
         {
-            var url = $"{Url.Dominio}empleados/update";
+            var url = $"{Url.Dominio}pedidos/getPedido";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-
             using (var httpClient = new HttpClient())
             {
-                var jsonPedido = JsonSerializer.Serialize(ActualizarPedido, options);
-                var content = new StringContent(jsonPedido, Encoding.UTF8, "application/json");
-
-                var response = await httpClient.PutAsync(url, content);
+                httpClient.DefaultRequestHeaders.Add("HeaderName", "HeaderValue");
+                var response = await httpClient.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
-                    return true;
+                    var Content = await response.Content.ReadAsStringAsync();
+                    var pedido = JsonSerializer.Deserialize<List<Models.Pedido>>(Content, options);
+                    return pedido;
                 }
-                else
-                {
-                    return false;
-                }
+                return new();
             }
         }
-        public static async Task<bool> EliminarPedido(int Id)
-        {
-            var url = $"{Url.Dominio}pedido/delete?Id={Id}";
-
-            using (HttpClient httpClient = new())
-            {
-
-                var response = await httpClient.DeleteAsync(url);
-                if (response.IsSuccessStatusCode)
-                    return true;
-                else
-                    return false;
-
-            }
-        }
-
     }
 }

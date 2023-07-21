@@ -55,6 +55,20 @@ namespace Lunchsoft.Server.Controllers
                 return BadRequest("Se encontró algun error");
             }
         }
+        [HttpGet("GetReserva")]
+        public ActionResult Get()
+        {
+            var Reserva = Data.Reservas.GetReserva();
+
+            if (Reserva != null)
+            {
+                return Ok(Reserva);
+            }
+            else
+            {
+                return BadRequest("Se encontró algun error");
+            }
+        }
 
         [HttpPut("Update")]
         public ActionResult Update([FromBody] Reserva modelo)

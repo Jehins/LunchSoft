@@ -53,6 +53,37 @@ namespace Lunchsoft.Server.Data
                 return new();
             }
         }
+        public static List<Shared.Models.PedidosDetalles>? GetPedDet()
+        {
+            try
+            {
+                string query = $"""SELECT * FROM PEDIDOS_DETALLES""";
+                var conexion = DataBase.GetConnection();
+                MySql.Data.MySqlClient.MySqlCommand comando = new(query, conexion);
+                var resultado = comando.ExecuteReader();
+
+                List<Shared.Models.PedidosDetalles> PedDList = new();
+
+                while (resultado.Read())
+                {
+                    Shared.Models.PedidosDetalles modelo = new()
+                    {
+                        Id = resultado.GetInt32(0),
+                        Descripcion = resultado.GetString(1),
+                        MenuFk = resultado.GetInt32(2),
+                        PedidoFk = resultado.GetInt32(3)
+                        
+
+                    };
+                    PedDList.Add(modelo);
+                }
+                return PedDList;
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public static bool Update(Shared.Models.PedidosDetalles modelo)
         {
             try

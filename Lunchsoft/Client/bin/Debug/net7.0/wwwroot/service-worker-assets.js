@@ -85,6 +85,10 @@
       "url": "img\/ae.png"
     },
     {
+      "hash": "sha256-0C8RIHgjJ2HpQhQXgZHjcZJjzCtf3qJy4MTzV9OBjro=",
+      "url": "img\/borrar.png"
+    },
+    {
       "hash": "sha256-UpT+iM6V3HIM3n7\/B1UWDOCQV8q0qcLm4agvvTKYbYM=",
       "url": "img\/burger.png"
     },
@@ -95,6 +99,10 @@
     {
       "hash": "sha256-81uCy7S82OhPN1v1N0RAjWcsENa+x2MZQji1uk0vYqQ=",
       "url": "img\/Dual Ball-1s-200px.gif"
+    },
+    {
+      "hash": "sha256-R4QpFQWMNz2OykWSkYbTesU7eOG5GevLJasPLRAPK8s=",
+      "url": "img\/editar.png"
     },
     {
       "hash": "sha256-kgMd9cNTQSt74R3IwNTw1MUeLNIc1d79dtQPjRivMsE=",
@@ -129,7 +137,7 @@
       "url": "img\/usuario.png"
     },
     {
-      "hash": "sha256-LHZCvXjLLXeoQmTJbs2jMHRdxNcdBwkHuY8fnXQ+gsg=",
+      "hash": "sha256-2UvCj4O\/H6jGcBHjQz2yhpMUu05CRig9ltJZBmluT3c=",
       "url": "index.html"
     },
     {
@@ -1017,19 +1025,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-XP\/rlVFV1rxldjXGgh55ZX7QEBJOy8AAqoUqxepeRlQ=",
+      "hash": "sha256-gNo9\/Oqi+LH3zO3RL9G8vucI9hAOCtfSxQR4UPM3Keo=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-uWdNre\/XhB6bcIzrV5WqoTcU\/hqFgIK8k2aPzR1iRhM=",
+      "hash": "sha256-JgwPQIho2POEPK7bT6pVQDidOXkpKi479nQW+TKMewk=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-6C+FTxzI47a9l50M++J9onVAwzRzQRF437FKpEixVmU=",
+      "hash": "sha256-OK7+T2YEOBS5KYAvavidST63sq9+RwH0QjKKkWCcC64=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-DRlo0uNIfoyQLYDVpviJAsOj9uQQZ663JjLOUQ\/MEq0=",
+      "hash": "sha256-5tQTzFR9rfFm8emhoo+tgG5cGfSos2ZNI8juxMoGX2c=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -1037,9 +1045,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-bxrkFRF9B6HpG26j\/yh0ic584bDmyFqBozxD2AEVwdk=",
+      "hash": "sha256-on7qsO3kVC+nGYKmPJ\/r7HSnN2McjZqSQlJKLtLiFXo=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "VVA4P8LA"
+  "version": "FQrQVwtg"
 };

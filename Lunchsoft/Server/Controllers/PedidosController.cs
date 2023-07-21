@@ -10,8 +10,12 @@ namespace Lunchsoft.Server.Controllers
         [HttpPost("crear")]
         public ActionResult Crear([FromBody] Shared.Models.Pedido modelo)
         {
+            if(modelo.Descripcion == "")
+            {
+                return BadRequest("La descripcion es incorrecta");
+            }
             if (modelo.ReservaFk <= 0)
-                return BadRequest("El empleado es incorrecto");
+                return BadRequest("La reserva es incorrecta");
 
             var pedido = Data.Pedido.Crear(modelo);
             // Valida la respuesta de la BD
@@ -27,12 +31,10 @@ namespace Lunchsoft.Server.Controllers
         }
 
         [HttpGet("Get")]
-        public ActionResult GetBy([FromHeader] int id)
+        public ActionResult GetBy()
         {
-            if (id <= 0)
-                return BadRequest("El id es incorrecto");
 
-            var Pedidos = Data.Pedido.GetAll(id);
+            var Pedidos = Data.Pedido.GetAll();
 
             if (Pedidos != null)
             {
@@ -41,6 +43,21 @@ namespace Lunchsoft.Server.Controllers
             else
             {
                 return BadRequest("Se encontró algun error");
+            }
+        }
+        [HttpGet("getPedido")]
+        public ActionResult Get()
+        {
+
+            var pedido = Data.Pedido.GetPedido();
+
+            if (pedido != null)
+            {
+                return Ok(pedido);
+            }
+            else
+            {
+                return BadRequest("El menu es incorrecto");
             }
         }
     }

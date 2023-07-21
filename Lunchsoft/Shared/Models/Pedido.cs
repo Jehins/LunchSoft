@@ -4,7 +4,7 @@
     {
 
         public int Id { get; set; }
-        public DateTime Hora { get; set; }
+        public string Descripcion { get; set; } = string.Empty;
         public int ReservaFk { get; set; }
 
     }

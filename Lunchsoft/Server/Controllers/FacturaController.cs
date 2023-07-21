@@ -51,7 +51,21 @@ namespace Lunchsoft.Server.Controllers
                 return BadRequest("Hubo algun error al intentar cambiar");
             }
         }
+        [HttpGet("getFactura")]
+        public ActionResult Get()
+        {
 
+            var factura = Data.Factura.GetFactura();
+
+            if (factura != null)
+            {
+                return Ok(factura);
+            }
+            else
+            {
+                return BadRequest("La factura es incorrecta.");
+            }
+        }
         [HttpPut("Update")]
         public ActionResult Update([FromBody] Factura modelo)
         {

@@ -31,7 +31,7 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Models.Factura>> ObtenerFactura()
+        public static async Task<List<Models.Factura>> ObtenerFactura()
         {
             var url = $"{Url.Dominio}factura/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -49,10 +49,26 @@ namespace Lunchsoft.Shared.Acceso
             }
         }
 
+        public static async Task<List<Models.Factura>> ObtenerF()
+        {
+            var url = $"{Url.Dominio}factura/getFactura";
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("HeaderName", "HeaderValue");
+                var response = await httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var Content = await response.Content.ReadAsStringAsync();
+                    var factura = JsonSerializer.Deserialize<List<Models.Factura>>(Content, options);
+                    return factura;
+                }
+                return new();
+            }
+        }
 
 
-
-        public async Task<bool> ActualizarFactura(Models.Factura FacturaActualizado)
+        public static async Task<bool> ActualizarFactura(Models.Factura FacturaActualizado)
         {
             var url = $"{Url.Dominio}factura/update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -75,7 +91,7 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<bool> EliminarEmpleado(int Id)
+        public static async Task<bool> EliminarEmpleado(int Id)
         {
             var url = $"{Url.Dominio}factura/delete?Id={Id}";
             using (HttpClient httpClient = new())

@@ -30,7 +30,7 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public async Task<List<Shared.Models.Reserva>> ObtenerReserva()
+        public static async Task<List<Shared.Models.Reserva>> ObtenerReserva()
         {
             var url = $"{Url.Dominio}reserva/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -47,7 +47,23 @@ namespace Lunchsoft.Shared.Acceso
                 return new();
             }
         }
-
+        public static async Task<List<Models.Reserva>> Obtener()
+        {
+            var url = $"{Url.Dominio}reserva/GetReserva";
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("HeaderName", "HeaderValue");
+                var response = await httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var Content = await response.Content.ReadAsStringAsync();
+                    var reserva = JsonSerializer.Deserialize<List<Models.Reserva>>(Content, options);
+                    return reserva;
+                }
+                return new();
+            }
+        }
 
 
 
