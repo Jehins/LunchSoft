@@ -32,54 +32,76 @@
 
         <div class="w-full mt-5">
             <label for="first_name" class="block text-sm font-medium text-gray-900">Valor</label>
-            <input @bind="Valor" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  w-full" placeholder="Valor" required>
+            <input @oninput="Mostra" @bind="Valor" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  w-full" placeholder="Valor" required>
         </div>
 
         <div class="mt-2 w-full">
             <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
-            <input @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
+            <input @oninput="Mostra" @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
         </div>
-
+        <h5>@Result</h5>
         <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
 
 
     </div>
 </div>
 
-<div class="Muestra border border-primary shadow-lg p-3 mb-2 bg-body-tertiary rounded mt-5">
-    <div class="menu-list-container">
-        @if (facturas != null && facturas.Any())
-        {
-            @foreach (var factura in facturas)
-            {
-                <tr class="bg-white rounded">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900">
-                        @factura.Valor
-                    </th>
-                    <td class="px-6 py-4">
-                        @factura.PedidoFk
-                    </td>
-                    <td class="px-6 py-4">
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Editar</button>
-                        <button class="btn btn-danger" @onclick="() => Eliminar(factura.Id)">Eliminar</button>
-                    </td>
-                </tr>
-            }
-            @if (!string.IsNullOrEmpty(muestra))
-            {
-                <div class="muestra-div">
-                    <h5>@muestra</h5>
-                </div>
-            }
-        }
-        else
-        {
-            <div>No se encontraron elementos en la factura.</div>
-        }
-    </div>
-</div>
 
+<div class="p-2 bg-gray-100 rounded mx-64 mt-5">
+
+    @if (facturas != null && facturas.Any())
+    {
+        <div class="relative overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500 ">
+                <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            Valor
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Pedido
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var factura in facturas)
+                    {
+                        <tr class="bg-white rounded">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900">
+                                @factura.Valor
+                            </th>
+                            <td class="px-6 py-4">
+                                @factura.PedidoFk
+                            </td>
+                            <td class="px-6 py-4">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Editar</button>
+                                <button class="btn btn-danger" @onclick="() => Eliminar(factura.Id)">Eliminar</button>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="flex p-5 justify-center items-center">
+            <label>No hay pedidos</label>
+        </div>
+    }
+
+</div>
 @code {
+    void Mostra()
+    {
+        Result = "";
+        muestra = "";
+    }
+
     async Task Agregar()
     {
         try
@@ -148,7 +170,13 @@
 }
 
 <style>
-
+    .Muestra {
+        block-size: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 70px;
+        margin-left: 70px;
+    }
     
     body {
         font-family: Arial, sans-serif;

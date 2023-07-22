@@ -9,7 +9,7 @@ namespace Lunchsoft.Server.Controllers
     {
 
         [HttpPost("crear")]
-        public ActionResult Crear([FromHeader] Factura modelo)
+        public ActionResult Crear([FromBody] Shared.Models.Factura modelo)
         {
             if (modelo.Valor <= 0)
             {
@@ -18,11 +18,13 @@ namespace Lunchsoft.Server.Controllers
 
 
             if (modelo.PedidoFk <= 0)
+            {
                 return BadRequest("El pedido es incorrecto");
+            }
+               
 
             // 
             var Factura = Data.Factura.Crear(modelo);
-            // Valida la respuesta de la BD
             if (Factura == true)
             {
                 return Created("", "Factura creada con exito");
@@ -66,6 +68,7 @@ namespace Lunchsoft.Server.Controllers
                 return BadRequest("La factura es incorrecta.");
             }
         }
+
         [HttpPut("Update")]
         public ActionResult Update([FromBody] Factura modelo)
         {

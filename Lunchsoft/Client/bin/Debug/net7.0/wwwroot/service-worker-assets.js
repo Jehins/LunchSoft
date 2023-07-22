@@ -1033,11 +1033,11 @@
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-OK7+T2YEOBS5KYAvavidST63sq9+RwH0QjKKkWCcC64=",
+      "hash": "sha256-yAQaCD749QQKw0P47DObXuVZaqa87ZkbAyltbY5ga+0=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-5tQTzFR9rfFm8emhoo+tgG5cGfSos2ZNI8juxMoGX2c=",
+      "hash": "sha256-DbNQpSeT++fLe71eB3mxu\/2N3nBcfsbsWvqOnD3nh\/0=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -1045,9 +1045,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-on7qsO3kVC+nGYKmPJ\/r7HSnN2McjZqSQlJKLtLiFXo=",
+      "hash": "sha256-\/2fCy+89sSizGGOTG74yBtk\/hR7stRXy+xLDUM\/82P8=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "FQrQVwtg"
+  "version": "FXtPukZu"
 };

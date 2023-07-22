@@ -28,11 +28,11 @@
       </div>
       <div class="modal-body">
                 <label class="text-gray-700 font-bold mb-2">Numero de mesa:</label>
-                <input type="text" @bind="Numero" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input type="text" @oninput="Mostra" @bind="Numero" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Fecha y Hora:</label>
-                <input type="datetime-local" @bind="Hora" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <input type="datetime-local" @oninput="Mostra" @bind="Hora" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
                 <label class="text-gray-700 font-bold mb-2">Empleado:</label>
-                <input type="text" @bind="EmpleadoFk" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input type="text" @oninput="Mostra" @bind="EmpleadoFk" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
                 <h5 class="mt-2">@Result</h5>
       </div>
       <div class="modal-footer">
@@ -44,38 +44,69 @@
 </div>
 
 
-<div class="Muestra border border-primary shadow-lg p-3 mb-5 bg-body-tertiary rounded mt-5">
-    <div class="reserva-list-container">
-        @if (reserva != null && reserva.Any())
-        {
-            @foreach (var reservas in reserva)
-            {
-                <div class="reserva-item">
-                    <div class="reserva-item-Numero">@reservas.Numero</div>
-                    <div class="reserva-item-Hora">@reservas.Hora</div>
-                    <div class="reserva-item-descripcion">@reservas.EmpleadoFk</div>
-                    <div class="menu-item-buttons flex justify-center items-center space-x-2 mt-2">
-                    <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModa">Actualizar</button>
-                    <!--Eliminar-->
-                    <button class="btn btn-danger" @onclick="() => Eliminar(reservas.Id)">Eliminar</button>
-                    </div>
-                </div>
-            }
-            @if (!string.IsNullOrEmpty(muestra))
-            {
-                <div class="muestra-div">
-                    <h5>@muestra</h5>
-                </div>
-            }
-        }
-        else
-        {
-            <div>No se encontraron reservas.</div>
-        }
-    </div>
+<div class="p-2 bg-gray-100 rounded mx-64 mt-5">
+
+    @if (reserva != null && reserva.Any())
+    {
+        <div class="relative overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500 ">
+                <thead class="text-xs text-gray-700 uppercase">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            Numero de mesa
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Fecha y Hora
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Empleado
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var reservas in reserva)
+                    {
+                        <tr class="bg-white rounded">
+                            <th scope="row" class="px-6 py-4 font-medium text-gray-900">
+                                @reservas.Numero
+                            </th>
+                            <td class="px-6 py-4">
+                                @reservas.Hora
+                            </td>
+                            <td class="px-6 py-4">
+                                @reservas.EmpleadoFk
+                            </td>
+                            <td class="px-6 py-4">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Editar</button>
+                                <button class="btn btn-danger" @onclick="() => Eliminar(reservas.Id)">Eliminar</button>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="flex p-5 justify-center items-center">
+            <label>No hay reservas</label>
+        </div>
+    }
+
 </div>
 
 @code {
+    void Mostra()
+    {
+        Result = "";
+        muestra = "";
+        StateHasChanged();
+    }
+
     string Numero = "";
     DateTime Hora;
     string EmpleadoFk = "";

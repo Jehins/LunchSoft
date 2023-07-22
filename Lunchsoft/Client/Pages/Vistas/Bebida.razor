@@ -33,26 +33,26 @@
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
                             </svg>
                         </div>
-                        <input @bind="Imagen" id="dropzone-file" type="file" class="hidden" />
+                        <input @oninput="Mostra" @bind="Imagen" id="dropzone-file" type="file" class="hidden" />
                     </label>
                 </div>
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Nombre del platillo:</label>
-                <input type="text" @bind="Nombre" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input @oninput="Mostra" type="text" @bind="Nombre" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Precio:</label>
-                <input type="number" @bind="Precio" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <input @oninput="Mostra" type="number" @bind="Precio" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Descripcion:</label>
-                <input type="text" @bind="Descripcion" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input @oninput="Mostra" type="text" @bind="Descripcion" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
                 <h5 class="mt-2">@Result</h5>
             </div>
             <div class="modal-footer">
                 <button type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" data-dismiss="modal">Cerrar</button>
-                <button type="button" @onclick="Crear" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Guardar</button>
+                <button type="button" @onclick="Crear" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">crear</button>
             </div>
         </div>
     </div>
 </div>
 <!--Obtener-->
-<div class="Muestra border border-primary shadow-lg p-1 mb-2 bg-body-tertiary rounded mt-5">
+<div class="p-3 bg-gray-10 rounded mx-60 border border-primary shadow-lg p-1 mb-2  rounded mt-5">
     <div class="menu-list-container">
         @if (menus != null && menus.Any())
         {
@@ -66,7 +66,7 @@
                     <div class="menu-item-buttons flex justify-center items-center space-x-2">
                         <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModa">Actualizar</button>
                         <!--Eliminar-->
-                        <button class="btn btn-danger" @onclick="() => Eliminar(menu.Id)">Eliminar</button>
+                        <button class="btn btn-danger" @oninput="Mostra" @onclick="() => Eliminar(menu.Id)">Eliminar</button>
                     </div>
                 </div>
             }
@@ -104,20 +104,20 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
                                 </svg>
                             </div>
-                            <input @bind="imagen" id="dropzone-file" type="file" class="hidden" />
+                            <input @oninput="Mostra" @bind="imagen" id="dropzone-file" type="file" class="hidden" />
                         </label>
                     </div>
                     <div class="form-group">
                         <label for="nombre">Nombre:</label>
-                        <input type="text" class="form-control" id="nombre" @bind="nombre">
+                        <input @oninput="Mostra" type="text" class="form-control" id="nombre" @bind="nombre">
                     </div>
                     <div class="form-group">
                         <label for="precio">Precio:</label>
-                        <input type="number" class="form-control" id="precio" @bind="precio">
+                        <input @oninput="Mostra" type="number" class="form-control" id="precio" @bind="precio">
                     </div>
                     <div class="form-group">
                         <label for="descripcion">Descripción:</label>
-                        <input type="text" class="form-control" id="descripcion" @bind="descripcion"></input>
+                        <input @oninput="Mostra" type="text" class="form-control" id="descripcion" @bind="descripcion"></input>
                     </div>
                     <h5>@mostrar</h5>
                 </form>
@@ -130,6 +130,13 @@
     </div>
 </div>
 @code {
+    void Mostra()
+    {
+        Result = "";
+        mostrar = "";
+        muestra = "";
+        StateHasChanged();
+    }
     string Imagen = "";
     string Nombre = "";
     string Precio = "";
