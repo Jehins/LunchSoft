@@ -89,7 +89,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""UPDATE MENU SET NAME = '{modelo.Nombre}', PRICE = '{modelo.Precio}', DESCRIPCION = '{modelo.Descripcion}',IMAGEN = `{modelo.Imagen}` WHERE ID = '{modelo.Id}'""";
+                string query = $"""UPDATE MENU SET NAME = '{modelo.Nombre}', PRICE = '{modelo.Precio}', DESCRIPCION = '{modelo.Descripcion}',IMAGEN = '{modelo.Imagen}' WHERE ID = '{modelo.Id}'""";
 
                 DataBase.Execute(query);
 
@@ -105,7 +105,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""DELETE FROM `MENU` WHERE `ID` = {id}""";
+                string query = $"""DELETE FROM `MENU` WHERE `ID` = '{id}'""";
                 DataBase.Execute(query);
                 return true;
             }

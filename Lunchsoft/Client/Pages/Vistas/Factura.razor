@@ -22,8 +22,6 @@
     </ul>
 
 </nav>
-
-
 <br /><br />
 <div class="flex flex-row justify-center items-center w-full mt-5">
     <div class="flex flex-col items-center justify-center bg-gray-200 rounded-lg p-5 w-64">
@@ -45,8 +43,6 @@
 
     </div>
 </div>
-
-
 <div class="p-2 bg-gray-100 rounded mx-64 mt-5">
 
     @if (facturas != null && facturas.Any())
@@ -93,13 +89,52 @@
             <label>No hay pedidos</label>
         </div>
     }
-
 </div>
+
+    <div class="modal fade mt-5" id="exampleModa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editar Menú</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input @oninput="Mostra" type="text" class="form-control" id="nombre" >
+                        </div>
+                        <div class="form-group">
+                            <label for="precio">Precio:</label>
+                            <input @oninput="Mostra" type="number" class="form-control" id="precio" >
+                        </div>
+
+                        <h5>@mostrar</h5>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Guardar cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 @code {
+    string Valor = "";
+    string PedidoFk = "";
+    string Result = "";
+    string muestra = "";
+    string mostrar = "";
     void Mostra()
     {
         Result = "";
         muestra = "";
+        mostrar = "";
     }
 
     async Task Agregar()
@@ -139,8 +174,9 @@
             Console.WriteLine("ER:" + ex.Message);
         }
     }
+    
 
-    public List<Shared.Models.Factura> facturas;
+    public List<Shared.Models.Factura>? facturas;
 
     protected override async Task OnInitializedAsync()
     {
@@ -162,10 +198,7 @@
         StateHasChanged();
     }
 
-    string Valor = "";
-    string PedidoFk = "";
-    string Result = "";
-    string muestra = "";
+    
 
 }
 

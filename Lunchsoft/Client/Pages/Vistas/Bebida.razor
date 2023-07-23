@@ -6,74 +6,22 @@
 
 <div class="Titulo">
     <h3 class="nombre2 text-center fs-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">Bebidas o postres</h3>
-    <h3 class="nombre text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">Aqui puedes ver y añadir una neuva bebida o postre</h3>
-</div>
-<div class="flex justify-center">
-    <button type="button" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-center" data-toggle="modal" data-target="#exampleModal">
-        Ingresa una Bebida o Postre
-    </button>
-</div>
-
-<!--Crear-->
-<div class="modal fade mt-5" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-gray-700 font-bold mb-2" id="exampleModalLabel">Crear Una bebida o postre</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="flex items-center justify-center w-full">
-
-                    <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-76 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
-                        <div class="flex flex-col items-center justify-center pt-8 pb-8">
-                            <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
-                            </svg>
-                        </div>
-                        <input @oninput="Mostra" @bind="Imagen" id="dropzone-file" type="file" class="hidden" />
-                    </label>
-                </div>
-                <label for="datetime" class="text-gray-700 font-bold mb-2">Nombre del platillo:</label>
-                <input @oninput="Mostra" type="text" @bind="Nombre" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
-                <label for="datetime" class="text-gray-700 font-bold mb-2">Precio:</label>
-                <input @oninput="Mostra" type="number" @bind="Precio" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
-                <label for="datetime" class="text-gray-700 font-bold mb-2">Descripcion:</label>
-                <input @oninput="Mostra" type="text" @bind="Descripcion" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
-                <h5 class="mt-2">@Result</h5>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" data-dismiss="modal">Cerrar</button>
-                <button type="button" @onclick="Crear" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">crear</button>
-            </div>
-        </div>
-    </div>
+    <h3 class="nombre text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded">Aqui puedes ver y elegir las bebidas</h3>
 </div>
 <!--Obtener-->
 <div class="p-3 bg-gray-10 rounded mx-60 border border-primary shadow-lg p-1 mb-2  rounded mt-5">
     <div class="menu-list-container">
-        @if (menus != null && menus.Any())
+        @if (bebidas != null && bebidas.Any())
         {
-            @foreach (var menu in menus)
+            @foreach (var bebida in bebidas)
             {
                 <div class="menu-item">
-                    <img class="menu-item-img" src="@menu.Imagen" alt="@menu.Nombre">
-                    <div class="menu-item-nombre">@menu.Nombre</div>
-                    <div class="menu-item-precio">$@menu.Precio</div>
-                    <div class="menu-item-descripcion">@menu.Descripcion</div>
+                    <img class="menu-item-img" src="@bebida.Imagen" alt="@bebida.Nombre">
+                    <div class="menu-item-nombre">@bebida.Nombre</div>
+                    <div class="menu-item-precio">$@bebida.Precio</div>
+                    <div class="menu-item-descripcion">@bebida.Descripcion</div>
                     <div class="menu-item-buttons flex justify-center items-center space-x-2">
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModa">Actualizar</button>
-                        <!--Eliminar-->
-                        <button class="btn btn-danger" @oninput="Mostra" @onclick="() => Eliminar(menu.Id)">Eliminar</button>
                     </div>
-                </div>
-            }
-            @if (!string.IsNullOrEmpty(muestra))
-            {
-                <div class="muestra-div">
-                    <h5>@muestra</h5>
                 </div>
             }
         }
@@ -84,160 +32,14 @@
     </div>
 </div>
 
-<!--Actualizar-->
-<div class="modal fade mt-5" id="exampleModa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title flex justify-center" id="exampleModalLabel">Editar Bebida</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="flex items-center justify-center w-full">
-
-                        <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-76 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
-                            <div class="flex flex-col items-center justify-center pt-8 pb-8">
-                                <svg class="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2" />
-                                </svg>
-                            </div>
-                            <input @oninput="Mostra" @bind="imagen" id="dropzone-file" type="file" class="hidden" />
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-                        <input @oninput="Mostra" type="text" class="form-control" id="nombre" @bind="nombre">
-                    </div>
-                    <div class="form-group">
-                        <label for="precio">Precio:</label>
-                        <input @oninput="Mostra" type="number" class="form-control" id="precio" @bind="precio">
-                    </div>
-                    <div class="form-group">
-                        <label for="descripcion">Descripción:</label>
-                        <input @oninput="Mostra" type="text" class="form-control" id="descripcion" @bind="descripcion"></input>
-                    </div>
-                    <h5>@mostrar</h5>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" data-dismiss="modal">Cancelar</button>
-                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @onclick="ActualizarMenus">Guardar cambios</button>
-            </div>
-        </div>
-    </div>
-</div>
 @code {
-    void Mostra()
-    {
-        Result = "";
-        mostrar = "";
-        muestra = "";
-        StateHasChanged();
-    }
-    string Imagen = "";
-    string Nombre = "";
-    string Precio = "";
-    string Descripcion = "";
-    string Result = "";
-
-    string imagen = "";
-    string nombre = "";
-    string precio = "";
-    string descripcion = "";
-    string mostrar = "";
-    string muestra = "";
-
-    
-    async Task Crear()
-    {
-        try
-        {
-            if (Imagen == "" || Nombre == "" || Precio == "" || Descripcion == "")
-            {
-                Result = "Porfavor llena los campos";
-            }
-            else
-            {
-                var nuevoMenu = new Lunchsoft.Shared.Models.Menus
-                    {
-                        Imagen = Imagen,
-                        Nombre = Nombre,
-                        Precio = int.Parse(Precio),
-                        Descripcion = Descripcion
-                    };
-
-                var resul = await Lunchsoft.Shared.Acceso.Menus.CrearMenu(nuevoMenu);
-
-                if (!resul)
-                {
-                    Result = "No se pudo crear el empleado.";
-
-                }
-                else
-                {
-                    Result = "Bebida creada con exito";
-                }
-            }
-        }
-        catch
-        {
-            Result = "Error al crear el menu";
-        }
-    }
-
-    public List<Shared.Models.Menus>? menus;
+    public List<Shared.Models.Bebida>? bebidas;
 
     protected override async Task OnInitializedAsync()
     {
-        menus = await Shared.Acceso.Menus.Obtener();
+        bebidas = await Shared.Acceso.Bebida.Obtener();
     }
-    async Task ActualizarMenus()
-    {
-        try
-        {
-            Shared.Models.Menus menuParaEditar = new Shared.Models.Menus();
-
-            if (imagen == "" || nombre == "" || precio == "" || descripcion == "")
-            {
-                mostrar = "Complete todos los campos";
-                StateHasChanged();
-            }
-            else
-            {
-                var result = await Shared.Acceso.Menus.ActualizarMenu(menuParaEditar);
-
-                if (!result)
-                {
-                    mostrar = "Se actualizó correctamente";
-                }
-                else
-                {
-                    mostrar = "No se pudo actualizar";
-                }
-                StateHasChanged();
-            }
-        }
-        catch
-        {
-            mostrar = "Error al actualizar";
-        }
-    }
-    async Task Eliminar(int menuId)
-    {
-        var result = await Shared.Acceso.Menus.EliminarMenu(menuId);
-        if (result)
-        {
-            muestra = "Se eliminó correctamente";
-        }
-        else
-        {
-            muestra = "No se pudo eliminar";
-        }
-        StateHasChanged();
-    }
+    
 }
 
 <style>

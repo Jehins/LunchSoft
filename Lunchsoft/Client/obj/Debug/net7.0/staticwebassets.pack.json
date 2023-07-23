@@ -125,6 +125,14 @@
       "PackagePath": "staticwebassets\\img\\burger.png"
     },
     {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\cancelar.png",
+      "PackagePath": "staticwebassets\\img\\cancelar.png"
+    },
+    {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\carpeta-abierta.png",
+      "PackagePath": "staticwebassets\\img\\carpeta-abierta.png"
+    },
+    {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
       "PackagePath": "staticwebassets\\img\\descarga1.png"
     },

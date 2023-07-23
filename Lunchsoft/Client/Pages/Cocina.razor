@@ -36,8 +36,12 @@
         </div>
 
         <div class="mt-2 w-full">
-            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Reserva</label>
-            <input @bind="ReservaFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Reserva" required>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Menu</label>
+            <input @bind="MenuFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Menu" required>
+        </div>
+        <div class="mt-2 w-full">
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
+            <input @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
         </div>
         <h6>@Result</h6>
 
@@ -56,7 +60,8 @@
             {
                 <div class="menu-item">
                     <div class="menu-item-nombre">@Pedido.Descripcion</div>
-                    <div class="menu-item-nombre">@Pedido.ReservaFk</div>
+                    <div class="menu-item-nombre">@Pedido.MenuFk</div>
+                    <div class="menu-item-nombre">@Pedido.PedidoFk</div>
                     <div class="menu-item-buttons">
                     </div>
                 </div>
@@ -87,7 +92,8 @@
     }
 
     string Descripcion = "";
-    string ReservaFk = "";
+    string MenuFk = "";
+    string PedidoFk = "";
     string Result = "";
     string muestra = "";
 
@@ -95,20 +101,21 @@
     {
         try
         {
-            if(Descripcion == "" || ReservaFk == "")
+            if(Descripcion == "" || MenuFk == "" ||PedidoFk == "")
             {
                 Result = "Completa todos los campos";
                 StateHasChanged();
             }
             else
             {
-                var nuevoPedido = new Lunchsoft.Shared.Models.Pedido
+                var nuevoPedido = new Lunchsoft.Shared.Models.PedidosDetalles
                     {
                         Descripcion = Descripcion,
-                        ReservaFk = int.Parse(ReservaFk)
+                        MenuFk = int.Parse(MenuFk),
+                        PedidoFk = int.Parse(PedidoFk)
                     };
 
-                var resul = await Lunchsoft.Shared.Acceso.Pedidos.CrearPedido(nuevoPedido);
+                var resul = await Lunchsoft.Shared.Acceso.PedidosDetalles.CrearPedidoD(nuevoPedido);
 
                 if (resul)
                 {
@@ -128,11 +135,11 @@
     }
 
 
-    public List<Shared.Models.Pedido> Pedidos;
+    public List<Shared.Models.PedidosDetalles> Pedidos;
 
     protected override async Task OnInitializedAsync()
     {
-        Pedidos = await Shared.Acceso.Pedidos.Obtener();
+        Pedidos = await Shared.Acceso.PedidosDetalles.ObtenerDetalle();
     }
 }
 <style>

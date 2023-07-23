@@ -100,7 +100,7 @@ namespace Lunchsoft.Server.Controllers
         [HttpDelete("Delete")]
         public ActionResult Delete([FromQuery] int id)
         {
-            var reservaEliminado = Reservas.Delete(id);
+            var reservaEliminado = Data.Reservas.Delete(id);
 
 
             if (reservaEliminado)

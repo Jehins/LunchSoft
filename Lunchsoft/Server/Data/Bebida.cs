@@ -1,16 +1,12 @@
-﻿using Lunchsoft.Shared.Models;
-using Microsoft.Extensions.Primitives;
-
-namespace Lunchsoft.Server.Data
+﻿namespace Lunchsoft.Server.Data
 {
-    public class Reservas
+    public class Bebida
     {
-
-        public static bool Crear(Reserva modelo)
+        public static bool Crear(Shared.Models.Bebida modelo)
         {
             try
             {
-                string query = $""" INSERT INTO `RESERVA` (`NUMERO`, `HORA`, `EMPLEADO_FK`) VALUES ('{modelo.Numero}','{modelo.Hora:yyyy-MM-dd HH:mm}','{modelo.EmpleadoFk}') """;
+                string query = $"""INSERT INTO BEBIDA (NAME, PRICE, DESCRIPCION,IMAGEN)VALUES('{modelo.Nombre}', '{modelo.Precio}', '{modelo.Descripcion}', '{modelo.Imagen}')""";
                 DataBase.Execute(query);
                 return true;
             }
@@ -19,12 +15,11 @@ namespace Lunchsoft.Server.Data
                 return false;
             }
         }
-        //organizar el fecha y hora de reserva
-        public static Reserva? GetBy(int Numero)
+        public static Shared.Models.Bebida? GetBy(int id)
         {
             try
             {
-                string query = $""" SELECT * FROM RESERVA WHERE NUMERO = {Numero} """;
+                string query = $"""SELECT * FROM BEBIDA WHERE ID = '{id}' """;
 
                 MySql.Data.MySqlClient.MySqlConnection conexion = DataBase.GetConnection();
 
@@ -32,21 +27,22 @@ namespace Lunchsoft.Server.Data
 
                 var resultado = comando.ExecuteReader();
 
+
                 while (resultado.Read())
                 {
 
-                    Reserva modelo = new ()
+                    Shared.Models.Bebida modelo = new()
                     {
                         Id = resultado.GetInt32(0),
-                        Numero = resultado.GetInt32(1),
-                        Hora = resultado.GetDateTime(2),
-                        EmpleadoFk = resultado.GetInt32(3)
+                        Nombre = resultado.GetString(1),
+                        Precio = resultado.GetInt32(2),
+                        Descripcion = resultado.GetString(3),
+                        Imagen = resultado.GetString(4)
                     };
 
                     return modelo;
                 }
 
-
                 return null;
             }
             catch
@@ -54,43 +50,46 @@ namespace Lunchsoft.Server.Data
                 return null;
             }
         }
-        public static List<Shared.Models.Reserva>? GetReserva()
+
+        public static List<Shared.Models.Bebida>? GetBebida()
         {
             try
             {
-                string query = $"""SELECT * FROM RESERVA""";
+                string query = $"""SELECT * FROM BEBIDA""";
                 var conexion = DataBase.GetConnection();
                 MySql.Data.MySqlClient.MySqlCommand comando = new(query, conexion);
                 var resultado = comando.ExecuteReader();
 
-                List<Shared.Models.Reserva> reservaList = new();
+                List<Shared.Models.Bebida> menuList = new();
 
                 while (resultado.Read())
                 {
-                    Shared.Models.Reserva modelo = new()
+                    Shared.Models.Bebida modelo = new()
                     {
                         Id = resultado.GetInt32(0),
-                        Numero = resultado.GetInt32(1),
-                        Hora = resultado.GetDateTime(2),
-                        EmpleadoFk = resultado.GetInt32(3)
+                        Nombre = resultado.GetString(1),
+                        Precio = resultado.GetInt32(2),
+                        Descripcion = resultado.GetString(3),
+                        Imagen = resultado.GetString(4)
 
                     };
-                    reservaList.Add(modelo);
+                    menuList.Add(modelo);
                 }
-                return reservaList;
+                return menuList;
             }
             catch
             {
                 return null;
             }
         }
-        public static bool Update(Reserva modelo)
+        public static bool Update(Shared.Models.Bebida modelo)
         {
             try
             {
-                string query = $"""UPDATE RESERVA SET NUMERO = '{modelo.Numero}', HORA = '{modelo.Hora}', EMPLEADO_FK = '{modelo.EmpleadoFk}' WHERE ID = '{modelo.Id}'""";
+                string query = $"""UPDATE BEBIDA SET NAME = '{modelo.Nombre}', PRICE = '{modelo.Precio}', DESCRIPCION = '{modelo.Descripcion}',IMAGEN = '{modelo.Imagen}' WHERE ID = '{modelo.Id}'""";
 
                 DataBase.Execute(query);
+
                 return true;
 
             }
@@ -99,12 +98,11 @@ namespace Lunchsoft.Server.Data
                 return false;
             }
         }
-
         public static bool Delete(int id)
         {
             try
             {
-                string query = $"""DELETE FROM `RESERVA` WHERE `ID` = {id}""";
+                string query = $"""DELETE FROM `BEBIDA` WHERE `ID` = '{id}' """;
                 DataBase.Execute(query);
                 return true;
             }

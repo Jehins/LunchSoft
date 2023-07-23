@@ -152,12 +152,12 @@
         }
         catch
         {
-            Result = "Error al crea la reserva";
+            Result = "Error al crea la reserva.";
             StateHasChanged();
         }
     }
 
-    public List<Shared.Models.Reserva> reserva;
+    public List<Shared.Models.Reserva>? reserva;
 
     protected override async Task OnInitializedAsync()
     {
@@ -169,11 +169,11 @@
         var result = await Shared.Acceso.Menus.EliminarMenu(reservaId);
         if (result)
         {
-            muestra = "Se eliminó correctamente";
+            muestra = "Se eliminó correctamente.";
         }
         else
         {
-            muestra = "No se pudo eliminar";
+            muestra = "No se pudo eliminar.";
         }
         StateHasChanged();
     }

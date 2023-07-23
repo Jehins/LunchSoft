@@ -199,15 +199,15 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "Lunchsoft.Shared.dll": "sha256-gNo9\/Oqi+LH3zO3RL9G8vucI9hAOCtfSxQR4UPM3Keo=",
-      "Lunchsoft.Client.dll": "sha256-5Pdo6iXobi1l3t\/x8spkrGtjhW0E3mn38EPFWINL45o="
+      "Lunchsoft.Shared.dll": "sha256-TNsit0Y8aOhNgiQmDhK5wyrfhhGJU4LMBqEWtGdW9qo=",
+      "Lunchsoft.Client.dll": "sha256-G5Zz\/5DDObvkbgQ2WqP3cX\/LaDY5rUnfPv31NeHKFRU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Lunchsoft.Shared.pdb": "sha256-JgwPQIho2POEPK7bT6pVQDidOXkpKi479nQW+TKMewk=",
-      "Lunchsoft.Client.pdb": "sha256-UqNJKTIsIJXxwIB8xipGJ\/AX4U+Tk72OGUljt7OxhDM="
+      "Lunchsoft.Shared.pdb": "sha256-GwWBBzgmwBgzOA044yRRNh+8Ea41YP2kD6mY0V\/6kQs=",
+      "Lunchsoft.Client.pdb": "sha256-Lnzl1b8DKvb+Gk57gcesfUSNkUoqBit8U9HLXdIxe8U="
     },
     "runtime": {
       "dotnet.7.0.5.eqs19pya6r.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",
