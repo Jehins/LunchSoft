@@ -38,11 +38,11 @@
                     </label>
                 </div>
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Nombre del platillo:</label>
-                <input @oninput="Mostra" type="text" @bind="Nombre" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input @oninput="Mostra" type="text" @bind="Nombre" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Nombre" />
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Precio:</label>
-                <input @oninput="Mostra" type="number" @bind="Precio" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <input @oninput="Mostra" type="number" @bind="Precio" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Precio">
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Descripcion:</label>
-                <input @oninput="Mostra" type="text" @bind="Descripcion" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input @oninput="Mostra" type="text" @bind="Descripcion" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Descripcion"/>
                 <h5 class="mt-2">@Result</h5>
             </div>
             <div class="modal-footer">
@@ -87,8 +87,6 @@
 </div>
 
 <!--Actualizar-->
-@foreach (var menu in menus)
-{
     <div class="modal fade mt-5" id="exampleModa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -113,86 +111,28 @@
                         </div>
                         <div class="form-group">
                             <label for="nombre">Nombre:</label>
-                            <input @oninput="Mostra" type="text" class="form-control" id="nombre" @bind="nombre">
+                            <input @oninput="Mostra" type="text" class="form-control" id="nombre" @bind="nombre" placeholder="Nombre"/>
                         </div>
                         <div class="form-group">
                             <label for="precio">Precio:</label>
-                            <input @oninput="Mostra" type="number" class="form-control" id="precio" @bind="precio">
+                            <input @oninput="Mostra" type="number" class="form-control" id="precio" @bind="precio" placeholder="Precio"/>
                         </div>
                         <div class="form-group">
                             <label for="descripcion">Descripción:</label>
-                            <input @oninput="Mostra" type="text" class="form-control" id="descripcion" @bind="descripcion"></input>
+                            <input @oninput="Mostra" type="text" class="form-control" id="descripcion" @bind="descripcion" placeholder="Descripcion" />
                         </div>
                         <h5>@mostrar</h5>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600" data-dismiss="modal">Cancelar</button>
-                    <button @onclick="() => Editar(menu.Id)" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Guardar cambios</button>
+                    <button @onclick="Editar" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Guardar cambios</button>
                 </div>
             </div>
         </div>
     </div>
-}
 
 
-
-
-
-@code {
-    public List<Shared.Models.Menus>? menus;
-
-    string imagen = "";
-    string nombre = "";
-    string precio = "";
-    string descripcion = "";
-    string mostrar = "";
-
-    // Obtener
-    protected override async Task OnInitializedAsync()
-    {
-        menus = await Shared.Acceso.Menus.Obtener();
-    }
-    // Actualizar
-    async Task Editar(int menuId)
-    {
-        try
-        {
-            if (imagen == "" || nombre == "" || precio == "" || descripcion == "")
-            {
-                mostrar = "Complete todos los campos.";
-            }
-            else
-            {
-                var Menus = new Shared.Models.Menus
-                    {
-                        Id = menuId,
-                        Imagen = imagen,
-                        Nombre = nombre,
-                        Precio = int.Parse(precio),
-                        Descripcion = descripcion
-                    };
-                var result = await Shared.Acceso.Menus.ActualizarMenu(Menus);
-                if (result)
-                {
-                    mostrar = "Se actualizó correctamente.";
-                }
-                else
-                {
-                    mostrar = "No se pudo actualizar.";
-                }
-            }
-
-            StateHasChanged();
-        }
-        catch
-        {
-            mostrar = "Error";
-        }
-    }
-    
-   
-}
 
 @code {
     string Imagen = "";
@@ -251,6 +191,55 @@
             StateHasChanged();
         }
     }
+    public List<Shared.Models.Menus>? menus;
+
+    string imagen = "";
+    string nombre = "";
+    string precio = "";
+    string descripcion = "";
+    string mostrar = "";
+
+    // Obtener
+    protected override async Task OnInitializedAsync()
+    {
+        menus = await Shared.Acceso.Menus.Obtener();
+    }
+    // Actualizar
+    async Task Editar()
+    {
+        try
+        {
+            if (imagen == "" || nombre == "" || precio == "" || descripcion == "")
+            {
+                mostrar = "Complete todos los campos.";
+            }
+            else
+            {
+                var Menus = new Shared.Models.Menus
+                    {
+                        Imagen = imagen,
+                        Nombre = nombre,
+                        Precio = int.Parse(precio),
+                        Descripcion = descripcion
+                    };
+                var result = await Shared.Acceso.Menus.ActualizarMenu(Menus);
+                if (result)
+                {
+                    mostrar = "Se actualizó correctamente.";
+                }
+                else
+                {
+                    mostrar = "No se pudo actualizar.";
+                }
+            }
+
+            StateHasChanged();
+        }
+        catch
+        {
+            mostrar = "Error";
+        }
+    }
     //Eliminar
     async Task Eliminar(int menuId)
     {
@@ -266,7 +255,6 @@
         StateHasChanged();
     }
 }
-
 
 
 

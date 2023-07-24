@@ -113,28 +113,8 @@
       "PackagePath": "staticwebassets\\img\\Ripple-1s-200px.gif"
     },
     {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\ae.png",
-      "PackagePath": "staticwebassets\\img\\ae.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\borrar.png",
-      "PackagePath": "staticwebassets\\img\\borrar.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
-      "PackagePath": "staticwebassets\\img\\burger.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\cancelar.png",
-      "PackagePath": "staticwebassets\\img\\cancelar.png"
-    },
-    {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\carpeta-abierta.png",
       "PackagePath": "staticwebassets\\img\\carpeta-abierta.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\descarga1.png",
-      "PackagePath": "staticwebassets\\img\\descarga1.png"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\editar.png",
@@ -147,18 +127,6 @@
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\no.png",
       "PackagePath": "staticwebassets\\img\\no.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\si.png",
-      "PackagePath": "staticwebassets\\img\\si.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\uo.png",
-      "PackagePath": "staticwebassets\\img\\uo.png"
-    },
-    {
-      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\usuario.png",
-      "PackagePath": "staticwebassets\\img\\usuario.png"
     },
     {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\index.html",

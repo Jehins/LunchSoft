@@ -28,11 +28,11 @@
       </div>
       <div class="modal-body">
                 <label class="text-gray-700 font-bold mb-2">Numero de mesa:</label>
-                <input type="text" @oninput="Mostra" @bind="Numero" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input type="text" @oninput="Mostra" @bind="Numero" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Numero de mesa" />
                 <label for="datetime" class="text-gray-700 font-bold mb-2">Fecha y Hora:</label>
-                <input type="datetime-local" @oninput="Mostra" @bind="Hora" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <input type="datetime-local" @oninput="Mostra" @bind="Hora" id="datetime" name="datetime" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Fecha y hora" />
                 <label class="text-gray-700 font-bold mb-2">Empleado:</label>
-                <input type="text" @oninput="Mostra" @bind="EmpleadoFk" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" />
+                <input type="text" @oninput="Mostra" @bind="EmpleadoFk" class="w-full bg-white border border-gray-300 rounded-lg py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-indigo-500" placeholder="Empleado" />
                 <h5 class="mt-2">@Result</h5>
       </div>
       <div class="modal-footer">
@@ -96,7 +96,6 @@
             <label>No hay reservas</label>
         </div>
     }
-
 </div>
 
 @code {
