@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\img\\Ripple-1s-200px.gif"
     },
     {
+      "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
+      "PackagePath": "staticwebassets\\img\\burger.png"
+    },
+    {
       "Id": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\carpeta-abierta.png",
       "PackagePath": "staticwebassets\\img\\carpeta-abierta.png"
     },

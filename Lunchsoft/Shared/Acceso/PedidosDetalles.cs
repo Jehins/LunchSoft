@@ -12,7 +12,7 @@ namespace Lunchsoft.Shared.Acceso
     {
         public static async Task<bool> CrearPedidoD(Shared.Models.PedidosDetalles nuevoPedido)
         {
-            var url = $"{Url.Dominio}pedidodetalle/crear";
+            var url = $"{Url.Dominio}pedidosDetalles/crear";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -32,7 +32,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<List<Shared.Models.PedidosDetalles>> ObtenerPedidoD()
         {
-            var url = $"{Url.Dominio}pedidodetalle/Get";
+            var url = $"{Url.Dominio}pedidosDetalles/Get";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -49,7 +49,7 @@ namespace Lunchsoft.Shared.Acceso
         }
         public static async Task<List<Models.PedidosDetalles>> ObtenerDetalle()
         {
-            var url = $"{Url.Dominio}pedidodetalle/GetPedDet";
+            var url = $"{Url.Dominio}pedidosDetalles/GetPedDet";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             using (var httpClient = new HttpClient())
             {
@@ -69,7 +69,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<bool> ActualizarPedidosD(Shared.Models.PedidosDetalles ActualizarPedido)
         {
-            var url = $"{Url.Dominio}pedidodetalle/update";
+            var url = $"{Url.Dominio}pedidosDetalles/Update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -92,7 +92,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public static async Task<bool> EliminarPedidoD(int Id)
         {
-            var url = $"{Url.Dominio}pedidodetalle/delete?id={Id}";
+            var url = $"{Url.Dominio}pedidosDetalles/Delete?id={Id}";
 
             using (HttpClient httpClient = new())
             {

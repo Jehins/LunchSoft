@@ -67,9 +67,9 @@ namespace Lunchsoft.Shared.Acceso
 
 
 
-        public static async Task<bool> ActualizarEmpleado(Shared.Models.Reserva reservaoActualizado)
+        public static async Task<bool> ActualizarReserva(Shared.Models.Reserva reservaoActualizado)
         {
-            var url = $"{Url.Dominio}reserva/update";
+            var url = $"{Url.Dominio}reserva/Update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -90,9 +90,9 @@ namespace Lunchsoft.Shared.Acceso
         }
 
 
-        public static async Task<bool> EliminarEmpleado(int Id)
+        public static async Task<bool> EliminarReserva(int Id)
         {
-            var url = $"{Url.Dominio}reserva/delete?Id={Id}";
+            var url = $"{Url.Dominio}reserva/Delete?Id={Id}";
             using (HttpClient httpClient = new())
             {
                 var response = await httpClient.DeleteAsync(url);

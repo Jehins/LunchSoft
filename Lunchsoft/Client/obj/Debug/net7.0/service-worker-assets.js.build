@@ -81,6 +81,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-UpT+iM6V3HIM3n7\/B1UWDOCQV8q0qcLm4agvvTKYbYM=",
+      "url": "img\/burger.png"
+    },
+    {
       "hash": "sha256-KhF7ftQ4\/KRyV5rX70aOMX6fyDAJeCONQ9IUd7JOMa4=",
       "url": "img\/carpeta-abierta.png"
     },
@@ -201,7 +205,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-7xthBQGjI5+yVlC7hie4fZuARDCdERmyH4tLtwb72Ek=",
+      "hash": "sha256-Wy1qER0NEL7Ic8n8p5L1pCwactpJHZ2AaT1QVGMYNpU=",
       "url": "sql2.sql"
     },
     {
@@ -1001,19 +1005,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-TNsit0Y8aOhNgiQmDhK5wyrfhhGJU4LMBqEWtGdW9qo=",
+      "hash": "sha256-PewiDLLALgmdhbmqlRT\/NFrYmT9s0ZkHb1XJF7YIVug=",
       "url": "_framework\/Lunchsoft.Shared.dll"
     },
     {
-      "hash": "sha256-GwWBBzgmwBgzOA044yRRNh+8Ea41YP2kD6mY0V\/6kQs=",
+      "hash": "sha256-PBEoSDtBaB6CyRK2IkauKBSv1uJh0C6MhOCZ+wm00FY=",
       "url": "_framework\/Lunchsoft.Shared.pdb"
     },
     {
-      "hash": "sha256-UysFiK1zIH4XQ7EKsUfCmuPQrz7yTBj5psLZHpLAL+8=",
+      "hash": "sha256-LjWNKMvxkLv4n4zTZhhhU5cHlpJeI6drpFng1TrQa7A=",
       "url": "_framework\/Lunchsoft.Client.dll"
     },
     {
-      "hash": "sha256-uBcryXCTqLH4kE25GgRj0io6p+GNcWNohQmfpOIggWc=",
+      "hash": "sha256-nHnJIv7nvDCzhOVKTRPdMN0aNEWo4ASheSMcujDwW+U=",
       "url": "_framework\/Lunchsoft.Client.pdb"
     },
     {
@@ -1021,9 +1025,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-m\/5lHd8F7ue5py2JdqCjRE5jSKBXh9P6gupSfWFyWSg=",
+      "hash": "sha256-TvYYkAVvkOI3cuFz6f84MbpL4YDMnpuIkxHDWR5mCt4=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "dFUcvq0d"
+  "version": "T2YtBba+"
 };

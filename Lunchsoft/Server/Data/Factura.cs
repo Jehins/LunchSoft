@@ -7,7 +7,7 @@
         {
             try
             {
-                string query = $"""INSERT INTO FACTURA (VALOR, PEDIDO_FK) VALUES ('{modelo.Valor}', '{modelo.PedidoFk}') """;
+                string query = $"""INSERT INTO FACTURA (VALOR, PEDIDOD_FK) VALUES ('{modelo.Valor}', '{modelo.PedidoFk}') """;
                 DataBase.Execute(query);
                 return true;
             }
@@ -20,7 +20,7 @@
         {
             try
             {
-                string query = $""" SELECT * FROM FACTURA WHERE PEDIDO_FK = {pedidoFk} """;
+                string query = $""" SELECT * FROM FACTURA WHERE PEDIDOD_FK = {pedidoFk} """;
 
                 MySql.Data.MySqlClient.MySqlConnection conexion = DataBase.GetConnection();
 
@@ -82,7 +82,7 @@
         {
             try
             {
-                string query = $"""UPDATE FACTURA SET VALOR = '{modelo.Valor}' AND PEDIDO = '{modelo.PedidoFk}' WHERE ID = '{modelo.Id}'""";
+                string query = $"""UPDATE FACTURA SET VALOR = '{modelo.Valor}' AND PEDIDOD_FK = '{modelo.PedidoFk}' WHERE ID = '{modelo.Id}'""";
 
                 DataBase.Execute(query);
 

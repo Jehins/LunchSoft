@@ -11,7 +11,10 @@ namespace Lunchsoft.Server.Controllers
         {
 
             if (modelo.MenuFk <= 0)
-                return BadRequest("El producto no esta bien");
+                return BadRequest("El menu no esta bien");
+
+            if (modelo.BebidaFk <= 0)
+                return BadRequest("La bebida no esta bien");
 
             if (modelo.PedidoFk <= 0)
                 return BadRequest("El pedido esta mal");
@@ -74,6 +77,8 @@ namespace Lunchsoft.Server.Controllers
 
             if (modelo.MenuFk <= 0)
                 return BadRequest("El producto no esta bien");
+            if (modelo.BebidaFk <= 0)
+                return BadRequest("La Bebida no esta bien");
 
             if (modelo.PedidoFk <= 0)
                 return BadRequest("El pedido esta mal");

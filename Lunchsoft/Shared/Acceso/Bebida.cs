@@ -67,7 +67,7 @@ namespace Lunchsoft.Shared.Acceso
         }
         public static async Task<bool> ActualizarBebida(Models.Bebida bebidaActualizado)
         {
-            var url = $"{Url.Dominio}Bebida/update";
+            var url = $"{Url.Dominio}Bebida/Update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -89,7 +89,7 @@ namespace Lunchsoft.Shared.Acceso
         }
         public static async Task<bool> EliminarBebida(int Id)
         {
-            var url = $"{Url.Dominio}Bebida/delete?Id={Id}";
+            var url = $"{Url.Dominio}Bebida/Delete?Id={Id}";
 
             using (var httpClient = new HttpClient())
             {

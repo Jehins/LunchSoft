@@ -13,15 +13,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Lunchsoft.Server.deps.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Lunchsoft.Server.runtimeconfig.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Lunchsoft.Server.pdb
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Bootstrap.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Components.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Icons.FontAwesome.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Icons.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Licensing.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\Google.Protobuf.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\K4os.Compression.LZ4.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\win-x86\PubTmp\Out\K4os.Compression.LZ4.Streams.dll

@@ -21,14 +21,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Lunchsoft.Server.runtimeconfig.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Lunchsoft.Server.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Lunchsoft.Server.pdb
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Bootstrap.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Components.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Icons.FontAwesome.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Icons.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Licensing.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Google.Protobuf.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\K4os.Compression.LZ4.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\K4os.Compression.LZ4.Streams.dll
@@ -81,7 +73,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\Lunchsoft.Server.pdb
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\Lunchsoft.Server.genruntimeconfig.cache
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\obj\Release\net7.0\ref\Lunchsoft.Server.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Blazorise.LoadingIndicator.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Microsoft.OpenApi.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll

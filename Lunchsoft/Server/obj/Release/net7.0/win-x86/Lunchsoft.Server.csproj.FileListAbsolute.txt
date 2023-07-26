@@ -15,15 +15,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Lunchsoft.Server.runtimeconfig.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Lunchsoft.Server.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Lunchsoft.Server.pdb
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Bootstrap.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Components.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Icons.FontAwesome.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Icons.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Licensing.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\Google.Protobuf.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\K4os.Compression.LZ4.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Server\bin\Release\net7.0\win-x86\K4os.Compression.LZ4.Streams.dll

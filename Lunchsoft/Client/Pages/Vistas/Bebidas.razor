@@ -58,9 +58,9 @@
         {
             @foreach (var bebida in bebidas)
             {
-                <div class="menu-item">
+                <div class="menu-item">  
                     <img class="menu-item-img" src="@bebida.Imagen" alt="@bebida.Nombre">
-                    <div class="menu-item-nombre">@bebida.Nombre</div>
+                    <div class="menu-item-nombre">@bebida.Nombre</div> 
                     <div class="menu-item-precio">$@bebida.Precio</div>
                     <div class="menu-item-descripcion">@bebida.Descripcion</div>
                     <div class="menu-item-buttons flex justify-center items-center space-x-2">
@@ -201,7 +201,7 @@
     {
         try
         {
-            Shared.Models.Bebida BebidaParaEditar = new();
+
 
             if (imagen == "" || nombre == "" || precio == "" || descripcion == "")
             {
@@ -210,6 +210,13 @@
             }
             else
             {
+                var BebidaParaEditar = new Shared.Models.Bebida
+                {
+                    Imagen = imagen,
+                    Nombre = nombre,
+                    Precio = int.Parse(precio),
+                    Descripcion = descripcion
+                };
                 var result = await Shared.Acceso.Bebida.ActualizarBebida(BebidaParaEditar);
 
                 if (!result)

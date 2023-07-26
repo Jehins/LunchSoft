@@ -11,7 +11,7 @@
             </a>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" @onclick="Reporte">Reporte</a>
-                <a class="dropdown-item" @onclick="Cerrar">Cerrar sesión</a>
+                <a class="dropdown-item" href="#">Cerrar sesión</a>
             </div>
         </li>
     </ul>
@@ -43,11 +43,13 @@
             <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
             <input @bind="PedidoFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
         </div>
+        <div class="mt-2 w-full">
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Pedido</label>
+            <input @bind="BebidaFk" type="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-full" placeholder="Pedido" required>
+        </div>
         <h6>@Result</h6>
 
         <button @onclick="Agregar" type="button" class="mt-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none  w-full self-center">Agregar</button>
-
-
     </div>
 </div>
 
@@ -62,6 +64,7 @@
                     <div class="menu-item-nombre">@Pedido.Descripcion</div>
                     <div class="menu-item-nombre">@Pedido.MenuFk</div>
                     <div class="menu-item-nombre">@Pedido.PedidoFk</div>
+                    <div class="menu-item-nombre">@Pedido.BebidaFk</div>
                     <div class="menu-item-buttons">
                     </div>
                 </div>
@@ -86,14 +89,11 @@
     {
 
     }
-    void Cerrar()
-    {
-
-    }
 
     string Descripcion = "";
     string MenuFk = "";
     string PedidoFk = "";
+    string BebidaFk = "";
     string Result = "";
     string muestra = "";
 
@@ -101,7 +101,7 @@
     {
         try
         {
-            if(Descripcion == "" || MenuFk == "" ||PedidoFk == "")
+            if(Descripcion == "" || MenuFk == "" ||PedidoFk == "" || BebidaFk == "")
             {
                 Result = "Completa todos los campos";
                 StateHasChanged();
@@ -112,6 +112,7 @@
                     {
                         Descripcion = Descripcion,
                         MenuFk = int.Parse(MenuFk),
+                        BebidaFk = int.Parse(BebidaFk),
                         PedidoFk = int.Parse(PedidoFk)
                     };
 
@@ -123,7 +124,7 @@
                 }
                 else
                 {
-                    Result = "No se pudo crear la factura.";
+                    Result = "No se pudo crear crear.";
                 }
                 StateHasChanged();
             }
@@ -135,7 +136,7 @@
     }
 
 
-    public List<Shared.Models.PedidosDetalles> Pedidos;
+    public List<Shared.Models.PedidosDetalles>? Pedidos;
 
     protected override async Task OnInitializedAsync()
     {

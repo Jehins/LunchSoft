@@ -68,7 +68,7 @@ namespace Lunchsoft.Shared.Acceso
         }
         public static async Task<bool> ActualizarMenu(Models.Menus menuActualizado)
         {
-            var url = $"{Url.Dominio}menu/update";
+            var url = $"{Url.Dominio}menu/Update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -90,7 +90,7 @@ namespace Lunchsoft.Shared.Acceso
         }
         public static async Task<bool> EliminarMenu(int Id)
         {
-            var url = $"{Url.Dominio}menu/delete?Id={Id}";
+            var url = $"{Url.Dominio}menu/Delete?Id={Id}";
 
             using (var httpClient = new HttpClient())
             {

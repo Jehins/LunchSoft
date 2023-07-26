@@ -6,14 +6,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\Lunchsoft.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\blazor.webassembly.js
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Bootstrap.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Components.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Icons.FontAwesome.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Icons.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Licensing.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\dotnet.7.0.5.eqs19pya6r.js
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\dotnet.wasm
@@ -229,13 +221,10 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Lunchsoft.Shared.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Icons.FontAwesome.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Memory.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Lunchsoft.Client.pdb.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Components.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
@@ -244,7 +233,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Licensing.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
@@ -310,7 +298,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Snackbar.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Xml.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
@@ -356,7 +343,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Console.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Icons.Material.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
@@ -368,7 +354,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Material.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
@@ -402,7 +387,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.Bootstrap.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
@@ -434,14 +418,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Lunchsoft.Client.staticwebassets.runtime.json
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Lunchsoft.Client.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Lunchsoft.Client.pdb
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Bootstrap.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Components.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Icons.FontAwesome.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Icons.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Licensing.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Material.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.Snackbar.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -643,14 +619,6 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\icudt_no_CJK.dat
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Lunchsoft.Shared.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Lunchsoft.Shared.pdb
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\3AGwYfI2.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\vkm5L4bQ.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\3mQRJ4gP.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\1UXqTSva.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\PWyghB1b.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\5llcwIOx.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\rlQRIIU2.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\JJqP4OXf.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\XN+vdji+.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\jaa2WCWd.gz
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\Ohys1szK.gz
@@ -871,7 +839,3 @@ C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\refint\Lunchsoft.Client.dll
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\Lunchsoft.Client.pdb
 C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\ref\Lunchsoft.Client.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\wwwroot\_framework\Blazorise.LoadingIndicator.dll.gz
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\bin\Release\net7.0\Blazorise.LoadingIndicator.dll
-C:\Users\Jehins\OneDrive\Escritorio\ProyectoFinal\Lunchsoft\Lunchsoft\Client\obj\Release\net7.0\build-gz\GBkHGQ0K.gz

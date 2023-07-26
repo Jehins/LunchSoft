@@ -8,7 +8,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""INSERT INTO PEDIDOS_DETALLES (DESCRIPCION, MENU_FK, PEDIDO_FK) VALUES ('{modelo.Descripcion}', '{modelo.MenuFk}', '{modelo.PedidoFk}')""";
+                string query = $"""INSERT INTO PEDIDOS_DETALLES (DESCRIPCION, MENU_FK, PEDIDO_FK, BEBIDA_FK) VALUES ('{modelo.Descripcion}', '{modelo.MenuFk}', '{modelo.PedidoFk}', '{modelo.BebidaFk}')""";
                 DataBase.Execute(query);
                 return true;
             }
@@ -40,6 +40,7 @@ namespace Lunchsoft.Server.Data
                         Descripcion = resultado.GetString(1),
                         MenuFk = resultado.GetInt32(2),
                         PedidoFk = resultado.GetInt32(3),
+                        BebidaFk = resultado.GetInt32(4)
                     };
                     lista.Add(modelo);
 
@@ -71,9 +72,8 @@ namespace Lunchsoft.Server.Data
                         Id = resultado.GetInt32(0),
                         Descripcion = resultado.GetString(1),
                         MenuFk = resultado.GetInt32(2),
-                        PedidoFk = resultado.GetInt32(3)
-                        
-
+                        PedidoFk = resultado.GetInt32(3),
+                        BebidaFk = resultado.GetInt32(4)
                     };
                     PedDList.Add(modelo);
                 }
@@ -88,7 +88,7 @@ namespace Lunchsoft.Server.Data
         {
             try
             {
-                string query = $"""UPDATE PEDIDOS_DETALLES SET DESCRIPCION = '{modelo.Descripcion}', MENU_FK = '{modelo.MenuFk}', PEDIDO_FK = '{modelo.PedidoFk}' WHERE Id = '{modelo.Id}'""";
+                string query = $"""UPDATE PEDIDOS_DETALLES SET DESCRIPCION = '{modelo.Descripcion}', MENU_FK = '{modelo.MenuFk}', PEDIDO_FK = '{modelo.PedidoFk}', BEBIDA_FK = '{modelo.BebidaFk}' WHERE ID = '{modelo.Id}'""";
 
                 DataBase.Execute(query);
 

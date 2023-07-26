@@ -7,15 +7,6 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Blazorise.dll": "sha256-qrDnYrp4zzo8BSMkg2l6cM8IPfl5TFxqQo6jsjLoqao=",
-      "Blazorise.Bootstrap.dll": "sha256-phSwZnYhPBuwDydpkNxELgVYr2nSTIP5+Aa160fLqBo=",
-      "Blazorise.Components.dll": "sha256-pEqySNXwVXrPBhZ6M7ppvfnbEuGPhHKWBG3NY3kILbI=",
-      "Blazorise.Icons.FontAwesome.dll": "sha256-NMORvkFsRrABcRVCuPDZCK8R1j+qwxbmtdqKZlgeEKQ=",
-      "Blazorise.Icons.Material.dll": "sha256-DqlCZwXENV72zKJLVdja2tI8i9fMSSEFMVpTOb0ny5w=",
-      "Blazorise.Licensing.dll": "sha256-HCvMfGG13thv3GWvUEN2Ca7avc0Bjw5kpc9h9Kk+LS0=",
-      "Blazorise.LoadingIndicator.dll": "sha256-vWsehFl5XQreQ\/Ym+HkRFtn\/gg3oz7mYsdWY3KG1SAk=",
-      "Blazorise.Material.dll": "sha256-h2CnjurDF9A+I7a3bCBSEBHpROfgTfwvc7EwRmkIezo=",
-      "Blazorise.Snackbar.dll": "sha256-o+BFBXNTqly+xTO+uvs6uR9\/4jC+WclOaho1FO5vkcI=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-3H1\/2dJ6LCSFrDwMxcIF9c89g7e2WDms+gUxX9yXsCE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-T7VsejmD8iW5KFy8++BoXVdY1Mc4VSTAdBlkPiyQmKg=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-t\/7w6In5F1noaAg32epZHTmof5Qv+lCIKNaCVqoB79E=",
@@ -208,15 +199,15 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "Lunchsoft.Shared.dll": "sha256-CcYQ\/ElfEFLYoFWSUy8CsCGVkhjHywNizGb6soWs2bs=",
-      "Lunchsoft.Client.dll": "sha256-DAKHPpZUa84WzjIzgStvkbDTff8kZPJM90R58exqkQY="
+      "Lunchsoft.Shared.dll": "sha256-YCWtjpXEgX8uGkTG\/MLw6Daa0ZqPa07MO+T4ATvouFo=",
+      "Lunchsoft.Client.dll": "sha256-JzNtZOzQk6M51P3V86+BF9z9G84GRf5fA7WoV\/gNJjI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Lunchsoft.Shared.pdb": "sha256-LmpFL8c4ol9OGoRr6mcPhtJhcH7JaEbcpP9\/Ger0Dog=",
-      "Lunchsoft.Client.pdb": "sha256-q7ISeWSACqHy4eLAZBorInIPX0oMRQzJFJcaAVU6MXI="
+      "Lunchsoft.Shared.pdb": "sha256-+5mh1UZvRAxJgSBhYmc86JuO+Gf8VPsZGOPTyyYqikI=",
+      "Lunchsoft.Client.pdb": "sha256-Z1HvYkGXYb1UVhRjtnmTcgFjFVWo5YdDYaXmtkSMyM8="
     },
     "runtime": {
       "dotnet.7.0.5.eqs19pya6r.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",

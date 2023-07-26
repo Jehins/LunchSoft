@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPvIJnOiiAEOH0X82fkB3ewAAAAACAAAAAAAQZgAAAAEAACAAAACruC1pUOCsjE4fRbgabMfHMCCICPvvlutEJfrg2H5kqQAAAAAOgAAAAAIAACAAAABsebcRNucZvZipNYWdxrErxLsCFZCSioHdauFWvXha5SAAAACbcYxcOmU060Xu4N+Vq4X77I3ft+yhumny2umnb1f+OEAAAAAZSWPdpqkHZgeIl7vE8nhp6SuaZCtJdTPel24CgdGHnawgifrtFsVLVyBvh8kUby673O0ANet0wtfRGyKpTfud</EncryptedPassword>
     <_PublishTargetUrl>ftp://lunchsoft.somee.com/www.lunchsoft.somee.com</_PublishTargetUrl>
-    <History>True|2023-07-12T16:29:35.0391729Z;True|2023-07-12T00:54:10.5878977-05:00;False|2023-07-11T22:49:15.3909599-05:00;True|2023-07-11T22:45:07.7229651-05:00;True|2023-07-11T19:51:31.7538569-05:00;True|2023-07-08T16:11:00.4090389-05:00;</History>
+    <History>True|2023-07-26T02:56:28.5727925Z;True|2023-07-25T21:10:38.7181114-05:00;True|2023-07-25T10:46:50.6723989-05:00;False|2023-07-25T10:35:14.6872734-05:00;True|2023-07-24T20:52:06.6347060-05:00;True|2023-07-24T17:53:15.5845692-05:00;True|2023-07-12T11:29:35.0391729-05:00;True|2023-07-12T00:54:10.5878977-05:00;False|2023-07-11T22:49:15.3909599-05:00;True|2023-07-11T22:45:07.7229651-05:00;True|2023-07-11T19:51:31.7538569-05:00;True|2023-07-08T16:11:00.4090389-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -84,31 +84,31 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/08/2022 13:08:14</publishTime>
     </File>
     <File Include="Lunchsoft.Client.dll">
-      <publishTime>07/12/2023 11:15:39</publishTime>
+      <publishTime>07/25/2023 21:48:55</publishTime>
     </File>
     <File Include="Lunchsoft.Client.pdb">
-      <publishTime>07/12/2023 11:15:39</publishTime>
+      <publishTime>07/25/2023 21:48:55</publishTime>
     </File>
     <File Include="Lunchsoft.Server.deps.json">
-      <publishTime>07/12/2023 11:15:47</publishTime>
+      <publishTime>07/25/2023 21:49:01</publishTime>
     </File>
     <File Include="Lunchsoft.Server.dll">
-      <publishTime>07/12/2023 11:15:46</publishTime>
+      <publishTime>07/25/2023 21:49:01</publishTime>
     </File>
     <File Include="Lunchsoft.Server.exe">
-      <publishTime>07/12/2023 11:15:47</publishTime>
+      <publishTime>07/25/2023 21:49:01</publishTime>
     </File>
     <File Include="Lunchsoft.Server.pdb">
-      <publishTime>07/12/2023 11:15:46</publishTime>
+      <publishTime>07/25/2023 21:49:01</publishTime>
     </File>
     <File Include="Lunchsoft.Server.runtimeconfig.json">
-      <publishTime>07/08/2023 15:57:10</publishTime>
+      <publishTime>07/24/2023 17:42:31</publishTime>
     </File>
     <File Include="Lunchsoft.Shared.dll">
-      <publishTime>07/12/2023 00:43:31</publishTime>
+      <publishTime>07/25/2023 21:48:54</publishTime>
     </File>
     <File Include="Lunchsoft.Shared.pdb">
-      <publishTime>07/12/2023 00:43:31</publishTime>
+      <publishTime>07/25/2023 21:48:54</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authorization.dll">
       <publishTime>05/24/2023 15:57:50</publishTime>
@@ -180,13 +180,34 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/15/2019 03:54:30</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>07/12/2023 11:16:12</publishTime>
+      <publishTime>07/25/2023 21:49:12</publishTime>
     </File>
     <File Include="wwwroot/css/app.css">
       <publishTime>07/11/2023 23:26:15</publishTime>
     </File>
     <File Include="wwwroot/css/Bootstrap.css">
-      <publishTime>06/27/2023 19:12:06</publishTime>
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.css.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.min.css.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.rtl.css">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.rtl.css.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.rtl.min.css">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/bootstrap.rtl.min.css.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
     </File>
     <File Include="wwwroot/css/login.css">
       <publishTime>06/27/2023 19:12:06</publishTime>
@@ -222,7 +243,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/27/2023 19:12:05</publishTime>
     </File>
     <File Include="wwwroot/img/burger.png">
-      <publishTime>07/11/2023 23:12:11</publishTime>
+      <publishTime>07/25/2023 09:35:56</publishTime>
+    </File>
+    <File Include="wwwroot/img/carpeta-abierta.png">
+      <publishTime>07/22/2023 19:38:35</publishTime>
     </File>
     <File Include="wwwroot/img/descarga1.png">
       <publishTime>06/28/2023 09:42:57</publishTime>
@@ -230,17 +254,26 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="wwwroot/img/Dual Ball-1s-200px.gif">
       <publishTime>06/25/2023 18:57:25</publishTime>
     </File>
+    <File Include="wwwroot/img/editar.png">
+      <publishTime>07/20/2023 13:18:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/epico.png">
+      <publishTime>07/03/2023 17:45:54</publishTime>
+    </File>
     <File Include="wwwroot/img/LunchSoft.png">
       <publishTime>06/27/2023 19:12:06</publishTime>
     </File>
     <File Include="wwwroot/img/LunchSoft2.png">
       <publishTime>06/27/2023 19:12:06</publishTime>
     </File>
+    <File Include="wwwroot/img/no.png">
+      <publishTime>07/03/2023 17:47:36</publishTime>
+    </File>
     <File Include="wwwroot/img/Ripple-1s-200px.gif">
       <publishTime>07/11/2023 19:02:34</publishTime>
     </File>
     <File Include="wwwroot/index.html">
-      <publishTime>07/11/2023 23:32:36</publishTime>
+      <publishTime>07/20/2023 11:20:32</publishTime>
     </File>
     <File Include="wwwroot/index.html._projection.g.js">
       <publishTime>07/08/2023 19:48:53</publishTime>
@@ -253,6 +286,42 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="wwwroot/index.html.__projection.g.js">
       <publishTime>07/11/2023 23:02:20</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.js">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.js.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.min.js">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.bundle.min.js.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.esm.js">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.esm.js.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.esm.min.js">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.esm.min.js.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.js">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.js.map">
+      <publishTime>07/12/2023 13:59:59</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js">
+      <publishTime>07/12/2023 14:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/bootstrap.min.js.map">
+      <publishTime>07/12/2023 14:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/material.js">
       <publishTime>06/27/2023 19:12:06</publishTime>
@@ -270,10 +339,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/27/2023 19:12:05</publishTime>
     </File>
     <File Include="wwwroot/service-worker-assets.js">
-      <publishTime>07/12/2023 11:16:12</publishTime>
+      <publishTime>07/25/2023 21:49:12</publishTime>
     </File>
     <File Include="wwwroot/service-worker.js">
-      <publishTime>07/12/2023 11:16:12</publishTime>
+      <publishTime>07/25/2023 21:49:12</publishTime>
+    </File>
+    <File Include="wwwroot/sql2.sql">
+      <publishTime>07/25/2023 09:58:40</publishTime>
     </File>
     <File Include="wwwroot/_content/Blazorise.Bootstrap/blazorise.bootstrap.css">
       <publishTime>06/14/2023 04:33:08</publishTime>
@@ -420,13 +492,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/07/2023 08:52:50</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.boot.json.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/blazor.webassembly.js">
       <publishTime>05/24/2023 15:57:08</publishTime>
@@ -519,13 +591,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/08/2023 15:59:18</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.7.0.5.vn2ro4inp8.js">
-      <publishTime>07/08/2023 15:59:07</publishTime>
+      <publishTime>07/24/2023 17:43:20</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.7.0.5.vn2ro4inp8.js.br">
-      <publishTime>07/08/2023 15:59:19</publishTime>
+      <publishTime>07/24/2023 17:43:22</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.7.0.5.vn2ro4inp8.js.gz">
-      <publishTime>07/08/2023 15:59:18</publishTime>
+      <publishTime>07/24/2023 17:43:21</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.timezones.blat">
       <publishTime>03/24/2023 17:13:38</publishTime>
@@ -537,13 +609,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/08/2023 15:59:18</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.wasm">
-      <publishTime>07/08/2023 15:59:18</publishTime>
+      <publishTime>07/24/2023 17:43:21</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.wasm.br">
-      <publishTime>07/08/2023 15:59:25</publishTime>
+      <publishTime>07/24/2023 17:43:27</publishTime>
     </File>
     <File Include="wwwroot/_framework/dotnet.wasm.gz">
-      <publishTime>07/08/2023 15:59:19</publishTime>
+      <publishTime>07/24/2023 17:43:21</publishTime>
     </File>
     <File Include="wwwroot/_framework/icudt.dat">
       <publishTime>02/15/2023 16:31:12</publishTime>
@@ -582,37 +654,37 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/08/2023 15:59:18</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll">
-      <publishTime>07/12/2023 11:15:39</publishTime>
+      <publishTime>07/25/2023 21:48:55</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Client.pdb.gz">
-      <publishTime>07/12/2023 11:15:39</publishTime>
+      <publishTime>07/25/2023 21:48:55</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Shared.dll">
-      <publishTime>07/12/2023 00:43:31</publishTime>
+      <publishTime>07/25/2023 21:48:54</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Shared.dll.br">
-      <publishTime>07/12/2023 00:43:57</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Shared.dll.gz">
-      <publishTime>07/12/2023 00:43:56</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Lunchsoft.Shared.pdb.gz">
-      <publishTime>07/12/2023 00:43:33</publishTime>
+      <publishTime>07/25/2023 21:48:55</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:10</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -624,148 +696,148 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Http.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Options.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.Concurrent.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Collections.NonGeneric.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -795,13 +867,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -831,13 +903,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Console.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -876,13 +948,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Linq.Expressions.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -903,31 +975,31 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Memory.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:10</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Http.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Net.Primitives.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.ObjectModel.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -939,40 +1011,40 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll">
-      <publishTime>07/12/2023 11:15:58</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll.br">
-      <publishTime>07/12/2023 11:16:12</publishTime>
+      <publishTime>07/25/2023 21:49:12</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.CoreLib.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Private.Uri.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Runtime.Numerics.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>
@@ -993,31 +1065,31 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/12/2023 11:16:08</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Security.Cryptography.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.br">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Encodings.Web.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll">
-      <publishTime>07/12/2023 11:15:57</publishTime>
+      <publishTime>07/25/2023 21:49:06</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll.br">
-      <publishTime>07/12/2023 11:16:09</publishTime>
+      <publishTime>07/25/2023 21:49:10</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.Json.dll.gz">
-      <publishTime>07/12/2023 11:16:08</publishTime>
+      <publishTime>07/25/2023 21:49:09</publishTime>
     </File>
     <File Include="wwwroot/_framework/System.Text.RegularExpressions.dll">
       <publishTime>07/12/2023 11:15:57</publishTime>

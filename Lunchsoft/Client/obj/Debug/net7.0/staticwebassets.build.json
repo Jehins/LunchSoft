@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rA+DQih5eAGZ55+xJeVH+MJoMvChXJ6jR45uORO2J38=",
+  "Hash": "ghYr2+5pipmYFW32N1nrfipbXvuZTFVJ3AUNqLGavRM=",
   "Source": "Lunchsoft.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7376,6 +7376,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-512.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\burger.png",
+      "SourceId": "Lunchsoft.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/burger.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\burger.png"
     },
     {
       "Identity": "C:\\Users\\Jehins\\OneDrive\\Escritorio\\ProyectoFinal\\Lunchsoft\\Lunchsoft\\Client\\wwwroot\\img\\carpeta-abierta.png",

@@ -6,5 +6,6 @@
         public string Descripcion { get; set; } = string.Empty;
         public int MenuFk { get; set; }
         public int PedidoFk { get; set; }
+        public int BebidaFk { get; set; }
     }
 }

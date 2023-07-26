@@ -182,7 +182,7 @@
 
     async Task Eliminar(int facturaid)
     {
-        var result = await Shared.Acceso.Menus.EliminarMenu(facturaid);
+        var result = await Shared.Acceso.Factura.EliminarFactura(facturaid);
         if (result)
         {
             muestra = "Se eliminó correctamente";
@@ -193,9 +193,6 @@
         }
         StateHasChanged();
     }
-
-    
-
 }
 
 <style>

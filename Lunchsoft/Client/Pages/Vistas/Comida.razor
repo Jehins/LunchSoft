@@ -38,10 +38,11 @@
 <div class="flex justify-center mt-5 w-100 h-auto border rounded p-3">
     <div class="form-group">
         <label for="descripcion" class="text-black px-2 py-1 mt-3">Descripción:</label>
-        <textarea class="form-control bg-gray-100 border border-gray-300 rounded" id="descripcion" rows="4" cols="50" placeholder="Escribe la descripción aquí" @bind="Descripcion"></textarea>
+        <textarea @oninput="Mostrar" class="form-control bg-gray-100 border border-gray-300 rounded" id="descripcion" rows="4" cols="50" placeholder="Escribe la descripción aquí" @bind="Descripcion"></textarea>
         <label for="reserva" class="text-black px-2 py-1">Reserva:</label>
-        <textarea class="form-control bg-gray-100 border border-gray-300 rounded" id="reserva" rows="4" cols="50" placeholder="Escribe tu reserva aquí" @bind="ReservaFk"></textarea>
-        <button class="btn btn-primary mt-3">Agregar</button>
+        <textarea @oninput="Mostrar" class="form-control bg-gray-100 border border-gray-300 rounded" id="reserva" rows="4" cols="50" placeholder="Escribe tu reserva aquí" @bind="ReservaFk"></textarea>
+        <h5>@Result</h5>
+        <button class="btn btn-primary mt-3" @onclick="agregar">Agregar</button>
     </div>
     
 </div>
@@ -80,11 +81,11 @@
 
                 if (!resul)
                 {
-                    Result = "No se pudo crear el pedido.";
+                    Result = "No se pudo agregar el pedido.";
                 }
                 else
                 {
-                    Result = "Peddo agregado con exito.";
+                    Result = "Pedido agregado con exito.";
                 }
                 StateHasChanged();
             }
@@ -96,7 +97,11 @@
         }
 
     }
-
+    void Mostrar()
+    {
+        Result = "";
+        StateHasChanged();
+    }
 }
 
 

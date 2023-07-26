@@ -52,7 +52,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> ActualizarEmpleado(Models.Empleados empleadoActualizado)
         {
-            var url = $"{Url.Dominio}empleados/update";
+            var url = $"{Url.Dominio}empleados/Update";
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
             using (var httpClient = new HttpClient())
@@ -75,7 +75,7 @@ namespace Lunchsoft.Shared.Acceso
 
         public async Task<bool> EliminarEmpleado(int Id)
         {
-            var url = $"{Url.Dominio}empleados/delete?Id={Id}";
+            var url = $"{Url.Dominio}empleados/Delete?Id={Id}";
 
             using (HttpClient httpClient = new())
             {

@@ -82,6 +82,7 @@
                             <td class="px-6 py-4">
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Editar</button>
                                 <button class="btn btn-danger" @onclick="() => Eliminar(reservas.Id)">Eliminar</button>
+                                <h5>@muestra</h5>
                             </td>
                         </tr>
 
@@ -165,7 +166,7 @@
 
     async Task Eliminar(int reservaId)
     {
-        var result = await Shared.Acceso.Menus.EliminarMenu(reservaId);
+        var result = await Shared.Acceso.Reserva.EliminarReserva(reservaId);
         if (result)
         {
             muestra = "Se eliminó correctamente.";
